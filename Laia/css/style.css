@@ -1,0 +1,480 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-gris-oscuro: rgb(11, 11, 11);
+  --color-bg-dark: #1f1f1f;
+  --color-bg-light: #cecece;
+  --color-bg-rosa-oscuro: #bf2489;
+  --color-bg-rosa-claro: #d66fb2;
+  --color-rosa-neon: rgb(255, 0, 238);
+  --fuente-titulos: "Roboto", serif;
+  font-size: 16px;
+}
+
+/* ESPACIO PARA VER COMO QUEDARIA LA PAGINA */
+.espacio{
+  padding: 30rem 0;
+}
+
+body{
+  background-color: black;
+  background-size: cover;
+  font-family: var(--fuente-titulos)
+}
+
+/* Body Estadísticas ----------------*/
+#estadisticas{
+  background: url('../img/background-estadisticas\ -\ copia.jpg') no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+h1{
+  font-family: var(--fuente-titulos);
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+h2{
+  font-family: var(--fuente-titulos);
+  font-weight: 200;
+  font-size: 1.9rem;
+}
+
+
+/* OLAS fondo ---------------------------*/
+
+#ola-grande{
+  position: fixed;
+  width: 60vw;
+  height: 100vh;
+  overflow: hidden;
+  right: 0;
+  z-index: -1000;
+}
+
+#ola-grande .ola{
+  filter: drop-shadow(0 0 1.5rem rgb(255, 0, 234));
+  position: absolute;
+  right: 0;
+  width: 45vw;
+  height: 100%;
+  background: url(../img/fondomaster.png);
+  opacity: 0.2;
+  background-size: 150% 200%;
+  /* bs: ancho% - largo% del contenedor */
+}
+
+/* #ola-grande .ola.ola1{
+  animation: wave 250s linear infinite;
+  z-index: -1001;
+  opacity: 0.7;
+  animation-delay: -2s;
+  bottom: 0;  
+} */
+
+#ola-grande .ola.ola2{
+  animation: wave 105s linear infinite;
+  z-index: -997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 0;
+}
+
+#ola-grande .ola.ola3{
+  animation: wave 210s linear infinite;
+  z-index: -998;
+  opacity: 0.6;
+  animation-delay: -2s;
+  bottom: 0;
+}
+
+#ola-grande .ola.ola4{
+  animation: wave 60s linear infinite;
+  z-index: -999;
+  opacity: 0.9;
+  animation-delay: -5s;
+  bottom: 0;
+}
+
+@keyframes wave{
+  0%{
+    background-position-y: 100%; 
+  }
+  45%{
+    background-position-y: 0%;
+  }
+  55%{
+    background-position-y: 0%;
+  }
+  100%{
+    background-position-y: 100%; 
+  }
+}
+
+/* Navbar -----------------------------------*/
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; 
+  background-color: var(--color-gris-oscuro);
+  box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 0 0 0 15px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  opacity: 1; 
+  list-style: none;
+}
+
+li {
+  padding: 0 15px;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+li a:hover {
+  background-color: rgb(255, 0, 238);
+  color: black;
+  box-shadow: 0 0 10px rgb(255, 0, 238);
+  border-radius: 5px;
+}
+
+#contacto{
+  color: gray;
+}
+/* No se porque no afecta a CONTACTO?????????? Yo lo linkearia este enlace a la sección con el formulario que ha hecho Patri*/
+
+/* Footer ---------------------------------------------------*/
+
+footer{
+  background-color: rgba(11, 11, 11, 0.699);
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer #animacion-chica{
+  background-image: url(../img/chica-navbar-lila.jpg);
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-self: flex-end;
+  width: 180px;
+  height: 180px;
+  animation: chica-brillo 5s infinite;
+}
+
+@keyframes chica-brillo {
+  0% {
+    background-image: url('../img/chica-navbar-lila.jpg'); 
+    box-shadow: 0 0 6rem rgb(255, 0, 238);
+  }
+  50% {
+    background-image: url('../img/chica-navbar-lila-dark.jpg');
+    box-shadow: 0 0 2rem rgb(255, 0, 238);
+  }
+  100% {
+    background-image: url('../img/chica-navbar-lila.jpg');
+    box-shadow: 0 0 6rem rgb(255, 0, 238);
+  }
+}
+
+/* MEDIA QUERIES  --------------------------------------------*/
+
+@media only screen and (min-width: 768px){
+
+  /* OLAS fondo ---------------------------*/
+
+  #ola-grande{
+    width: 40vw;
+  }
+
+  #ola-grande .ola{
+    filter: drop-shadow(0 0 2.5rem rgb(255, 0, 234));
+    width: 35vw;
+  }
+
+}
+
+@media only screen and (min-width: 1024px){
+
+  /* Contenedor HEADER-MAIN-FOOTER para cuando el nav sea horizontal */
+  .contenedor-header-main-footer{
+    margin-left: 90px; 
+  }
+
+  /* NAVBAR -----------------------------------*/
+
+  nav {
+    width: 90px;
+    height: 100vh;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+    transition: 0.5s;
+    display: block;
+  }
+  
+  .logo {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px 0 0 0;
+  }
+  
+  ul {
+    flex-direction: column;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  li {
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+  }
+  
+  li a {
+    width: 100%;
+    padding: 15px;
+    color: white;
+  }
+  
+  /* Menú desplegable desplegado */
+  nav.abierto {
+    width: 300px;
+    z-index: 1000;
+  }
+  
+  nav.abierto .logo{
+    background-image: url(../img/Logo-hackherspace1.png);
+    background-size: contain;
+    justify-self: center;
+    width: 100px;
+    height: 100px;
+  }
+  
+  nav.abierto .logo span{
+    opacity: 0;
+  }
+  
+  nav.abierto ul {
+    opacity: 1;
+  }
+
+  /* OLAS fondo ---------------------------*/
+  
+  #ola-grande .ola{
+    filter: drop-shadow(0 0 4rem rgb(255, 0, 234));
+    right: 3rem;
+    width: 26vw;
+  }
+  
+}
+
+@media only screen and (min-width: 1440px){
+
+  /* OLAS fondo ---------------------------*/
+
+  #ola-grande{
+    width: 30vw;
+  }
+
+  #ola-grande .ola{
+    filter: drop-shadow(0 0 5rem rgb(255, 0, 234));
+    right: 2.5rem;
+    width: 20vw;
+  }
+
+}
+
+@media only screen and (min-width: 1900px){
+
+  /* ESTADÍSTIQUES ---------------------------------- */
+
+  #estadisticas main{
+    display: grid;
+    grid-template:
+    "texto graficos"
+    / auto 1fr;
+  }
+
+  /* Título y texto de Presentación de la sección*/
+
+  #presentacion-estadisticas{
+    width: 33vw;
+    height: 100vh;
+    padding: 1.5rem 2.5rem;
+    position: sticky;
+    top: 0;
+  }
+
+  #presentacion-estadisticas h1{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-size: 3.6rem;
+  }
+  
+  #presentacion-estadisticas h2{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-size: 2rem;
+  }
+
+  #presentacion-estadisticas p{
+    font-size: 1.1rem;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    line-height: 1.3rem;
+    margin-top: 2rem;
+  }
+
+  /* Posicionamiento de las tarjetas con los gráficos ------------ */
+
+  /* Posicionamiento de la sección "A Nivel global" */
+
+  #global{
+    display: grid;
+    grid-template:
+    "titulo titulo"
+    "grafico1 grafico2"
+    / auto auto;
+    justify-content: space-evenly;
+  }
+
+  #global h3, #europa h3{
+    grid-area: titulo;
+    justify-self: center;
+    padding: 4rem 0 3rem 0;
+  }
+
+  #grafico1{
+    grid-area: grafico1;
+  }
+  
+  #grafico2{
+    grid-area: grafico2;
+  }
+
+  /* Posicionamiento de la sección "A nivel Europeo" */
+  #europa{
+    display: grid;
+    grid-template:
+    "titulo titulo"
+    "grafico3 grafico4"
+    "grafico5 grafico6 "
+    / auto auto;
+    justify-content: space-evenly;
+  }
+
+  #grafico3{
+    grid-area: grafico3;
+  }
+  
+  #grafico4{
+    grid-area: grafico4;
+  }
+
+  #grafico5{
+    grid-area: grafico5;
+  }
+  
+  #grafico6{
+    grid-area: grafico6;
+  }
+  /* Estilos de las tarjetas con los graficos -------------------------- */
+
+  /* A NIVELL GLOBAL */
+
+  .grafico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 60vh;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem 1rem 3rem 1rem;
+    box-shadow: 0 0 4rem rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.625);
+    transition: all 0.9s ease;
+  }
+
+  .grafico:hover{
+    transform: scale(1.03);
+    background-color: rgba(58, 0, 69, 0.57);
+    box-shadow: 0 0 4rem var(--color-rosa-neon);
+    color: rgb(255, 255, 255);
+
+  }
+
+  .grafico p:last-of-type{
+    font-size: 0.9rem;
+    padding: 0.7rem 0 1.5rem 0;
+  }
+
+  .grafico figcaption{
+    padding: 1rem 3rem;
+    line-height: 1.5;
+  }
+
+  .grafico figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grafico img{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+  }
+
+  #estadisticas h3{
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: var(--fuente-titulos);
+    color: #bf2489;
+  }
+
+  span[lang="en"]{
+    font-style: italic;
+  }
+
+}

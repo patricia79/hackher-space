@@ -1,0 +1,418 @@
+@charset "utf-8";
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 20px;
+    --color_back: rgb(16, 0, 9);
+    --color_back1: rgb(30, 0, 17);
+    --color_1: rgba(64, 2, 42, 1);
+    --color_2: rgba(191, 36, 137, 1);
+    --color_3: rgba(189, 44, 191, 1);
+    --color_4: rgba(57, 2, 64, 1);
+    --color_5: rgba(78, 41, 115, 1);
+    --color_6: rgba(183, 150, 217, 1); 
+    --color_7: rgba(238, 242, 109, 1);
+    --color_w: rgba(242, 242, 242, 1);
+    --color_9: rgba(38, 1, 22, 1);
+    --font_1: "Labrada", serif;
+    --font_2: "Flamenco", serif;
+    --font_3: "Vidaloka", serif;
+    --font_4: "Space Grotesk", serif;
+    --font_5: "Arvo", serif;
+    --font_6: "Figtree", sans-serif;
+    --font_7: "Assistant", sans-serif;
+    --borderzB: 2px solid red;
+}
+
+/* Disseny responsiu */
+/* 425px */
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: var(--color_back);
+    width: 100vw;
+    max-width: 2560px;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 10vh 1fr auto;
+    grid-template-areas:
+        'capçalera'
+        'menu-navegacio'
+        'contingut-pral'
+        'peu';
+}
+
+/******************************************************************************************************************************************/
+/* Estil pel Header */
+body > header{
+    grid-area: capçalera;
+    width: 100%;
+    display: grid;
+}
+
+h1{
+    font-family: var(--font_1);
+    color: var(--color_7);
+    margin: 1rem 0;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-size: 2.75rem;
+    display: grid;
+    align-items: center;
+    text-shadow: 0 0 5px var(--color_w),     /* Efecte neó   */
+    0 0 10px var(--color_w), 
+    0 0 15px var(--color_2),
+    0 0 20px var(--color_2),
+    0 0 25px var(--color_2),
+    0 0 30px var(--color_2),
+    0 0 35px var(--color_2);
+}
+
+/**********************************************************************************************************************************************/
+/* Carousel- style */
+.contenedor-slider{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+
+.slider{
+    display: flex;
+    height: 40vh;
+    width: 500%;
+    margin-left: -100%;
+}
+
+.slider-section{
+    width: 100%;
+}
+
+.slider-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.oculto{
+    visibility: hidden;
+}
+
+.slider-btn-right{
+    right: 10px;
+}
+
+.slider-btn-left{
+    left: 10px;
+}
+
+.slider-btn:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/*************************************************************************************************************************************/
+/* Estil menu */
+nav{
+    grid-area: menu-navegacio;
+}
+
+.nav__container{
+    width: min(90%, 1200px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    --icon-toggle-menu: url(../assets/menu-open.svg);
+    --transform-menu-show: translate(-100%);
+}
+
+.nav__container:has(.nav__input:checked){
+    --icon-toggle-menu: url(../assets/menu-close.svg);
+    --transform-menu-show: translate(0);
+}
+
+.nav__figure, .nav__toggle{
+    z-index: 10;
+}
+
+.nav__input{
+    display: none;
+}
+
+.nav__toggle{
+    width: 40px;
+    height: 40px;
+    background-image: var(--icon-toggle-menu);
+    background-size: cover;
+    cursor: pointer;
+    transition: background-image .5s;
+}
+
+.nav__input{
+    width: 40px;
+    height: 40px;
+}
+
+.nav__list{
+    transform: var(--transform-menu-show);
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+    text-align: center;
+    padding: 1.5rem 5%;
+    background-color: #000;
+    list-style:none;
+    transition: .5s transform;
+}
+
+.nav__link{
+    text-decoration: none;
+    font-family: var(--font_2);
+    color: var(--color_6);
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 0 5px var(--color_5), /* Efecte neó   */
+    0 0 10px var(--color_5), 
+    0 0 15px var(--color_2),
+    0 0 20px var(--color_2),
+    0 0 25px var(--color_2),
+    0 0 30px var(--color_2),
+    0 0 35px var(--color_2);
+}
+/*************************************************************************************************************************************/
+/* Estils pel main */
+main{
+    grid-area: contingut-pral;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+        "introduccio"
+        "videos"
+        "contacte";
+}
+
+section{
+    width: 95%;
+    margin: 0 auto;
+    color: var(--color_w);
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 0.75rem;
+    padding: 1rem 0;
+}
+
+.brilli-brilli{
+    text-shadow: 0 0 5px var(--color_w), 
+    0 0 10px var(--color_w), 
+    0 0 15px var(--color_2),
+    0 0 20px var(--color_2),
+    0 0 25px var(--color_2),
+    0 0 30px var(--color_2),
+    0 0 35px var(--color_2);
+}
+
+section header{
+    width: 100%;
+    font-family: var(--font_2);
+    display: grid;
+
+        & h2{
+            margin: 1rem 0;
+            font-weight: 800;
+            font-size: 1.75rem;
+            display: grid;
+            place-items: center;
+        }
+}
+
+/* Intro */
+section:first-of-type{
+    grid-area: introduccio;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+section:first-of-type figure{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    border: 2px dotted var(--color_3);
+}
+
+.img-intro{
+    width: 100%;
+    height: 100%;
+
+}
+
+section:first-of-type p{
+    font-family: var(--font_7);
+} 
+
+/* Videos */
+
+#videos{
+    grid-area: videos;
+    place-items: center;
+}
+
+section:nth-of-type(2){
+    border: var(--borderzB);
+    grid-area: videos;
+    display: grid;
+    place-items: center;
+}
+
+section:nth-of-type(2) figure{
+    width: 100%;
+    display: grid;
+    align-items: center;
+}
+
+section:nth-of-type(2) figure video{
+    width: 100%;
+    object-fit: contain;
+    border: 2px dotted var(--color_3);
+    box-shadow: 2px 4px 6px #333;
+    filter: brightness(0.9) contrast(1.2); /* millora l'apariència*/
+}
+
+section:nth-of-type(2) figure video:hover{
+    cursor: pointer;
+    border: 2px dashed var(--color_3);
+    box-shadow: 2px 4px 6px #ff0000;
+}
+
+section:last-of-type{
+    border: var(--borderzB);
+    grid-area: contacte;
+}
+
+
+
+
+
+
+/* Estils pel footer */
+footer{
+    border: var(--borderzB);
+    grid-area: peu;
+    font-family: var(--font_2);
+    color: var(--color_6);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+
+#animacion-chica{
+    background-image: url(../img/chica-navbar-lila.jpg);
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* align-self: flex-end; */
+    width: 180px;
+    height: 180px;
+    animation: chica-brillo 5s infinite;
+  }
+
+
+
+
+/* Media Queries */
+@media only screen and (min-width: 768px){
+        .nav__container{
+        --transform-menu-show: translate(0);
+    }
+
+    .nav__toggle{
+        display: none;
+    }
+
+    .nav__list{
+        position: static;
+        grid-auto-flow: column;
+        place-content: unset;
+        padding: 0;
+
+        transition: unset;
+    }
+    
+    .contenedor-slider{
+        display: block;
+    }
+
+    #banner{
+        display: none;
+    }
+} 
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.GENOM©-1-hex { color: #4E2973; }
+.GENOM©-2-hex { color: #B796D9; }
+.GENOM©-3-hex { color: #EEF26D; }
+.GENOM©-4-hex { color: #F2F2F2; }
+.GENOM©-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.GENOM©-1-rgba { color: rgba(78, 41, 115, 1); }
+.GENOM©-2-rgba { color: rgba(183, 150, 217, 1); }
+.GENOM©-3-rgba { color: rgba(238, 242, 109, 1); }
+.GENOM©-4-rgba { color: rgba(242, 242, 242, 1); }
+.GENOM©-5-rgba { color: rgba(13, 13, 13, 1); }
+
+
+/* Color Theme Swatches in Hex */
+.STRIPE-1-hex { color: rgb(38, 1, 22); }
+.STRIPE-2-hex { color: #40022A; }
+.STRIPE-3-hex { color: #BF2489; }
+.STRIPE-4-hex { color: #BD2CBF; }
+.STRIPE-5-hex { color: #390240; }
+
+
+
+
+
+
+
+
+
