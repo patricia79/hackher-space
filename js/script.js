@@ -40,3 +40,5 @@ btnLeft.addEventListener('click', moverIzqda);
 
 // Automatizar el movimiento
 setInterval(moverDcha, 4000);
+
+// Termes i Condicions

@@ -244,6 +244,12 @@ section{
     0 0 35px var(--color_2);
 }
 
+.dotted{
+    border: 2px dotted var(--color_3);
+    border-radius: 8px;
+}
+
+
 section header{
     width: 100%;
     font-family: var(--font_2);
@@ -270,13 +276,11 @@ section:first-of-type figure{
     width: 100%;
     display: grid;
     align-items: center;
-    border: 2px dotted var(--color_3);
 }
 
-.img-intro{
+section:first-of-type figure img{
     width: 100%;
     height: 100%;
-
 }
 
 section:first-of-type p{
@@ -285,13 +289,7 @@ section:first-of-type p{
 
 /* Videos */
 
-#videos{
-    grid-area: videos;
-    place-items: center;
-}
-
 section:nth-of-type(2){
-    border: var(--borderzB);
     grid-area: videos;
     display: grid;
     place-items: center;
@@ -306,7 +304,6 @@ section:nth-of-type(2) figure{
 section:nth-of-type(2) figure video{
     width: 100%;
     object-fit: contain;
-    border: 2px dotted var(--color_3);
     box-shadow: 2px 4px 6px #333;
     filter: brightness(0.9) contrast(1.2); /* millora l'apariència*/
 }
@@ -314,18 +311,60 @@ section:nth-of-type(2) figure video{
 section:nth-of-type(2) figure video:hover{
     cursor: pointer;
     border: 2px dashed var(--color_3);
-    box-shadow: 2px 4px 6px #ff0000;
+    box-shadow: 2px 4px 6px var(--color_2);
 }
 
 section:last-of-type{
-    border: var(--borderzB);
     grid-area: contacte;
 }
 
+form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px dotted var(--color_3);
+}
 
+fieldset{
+    font-family: var(--font_7);
+    border: none;
+    padding: 1rem;
+}
 
+fieldset:nth-child(2){
+    border-radius: 8px;
+    border: 2px dotted var(--color_3);
+}
 
+legend{
+    padding: 0 1rem;
+    font: 1.5rem;
+    font-weight: bold;
+}
 
+input[type="submit"]{
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+#nom, #cognoms, #correu{
+    display: block;
+    margin: 1rem 0;
+    width: 95%;
+    font: 1.2rem;
+    padding: 1.2rem;
+    border-radius: 5px;
+}
+
+.error{
+    color: #ff0000;
+}
 
 /* Estils pel footer */
 footer{
@@ -349,7 +388,7 @@ footer{
     width: 180px;
     height: 180px;
     animation: chica-brillo 5s infinite;
-  }
+}
 
 
 

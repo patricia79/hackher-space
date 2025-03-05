@@ -89,7 +89,7 @@
             <p>La manca de referents femenins, els prejudicis de gènere i la cultura laboral sovint excloent han contribuït a una bretxa de gènere que encara persisteix en l'actualitat.</p>
 
             <figure>
-                <img class="img-intro" src="img/intro.jpg" alt="foto_intro">
+                <img class="dotted" src="img/intro.jpg" alt="foto_intro">
             </figure>
                 
             <p>No obstant això, la situació està canviant. Cada cop són més les iniciatives que busquen donar visibilitat a les dones en la tecnologia i fomentar la seva presència en el sector. Des de programes educatius fins a xarxes de suport i mentoratge, hi ha un moviment creixent que impulsa la participació femenina en l'àmbit de la informàtica i la programació.</p> 
@@ -104,7 +104,7 @@
 
 
             <figure>
-                <img class="img-intro" src="img/intro2V3.jpg" alt="foto_intro2">
+                <img class="dotted" src="img/intro2V3.jpg" alt="foto_intro2">
             </figure>
         </section>
 
@@ -113,24 +113,24 @@
             <header>
                 <h2 class="brilli-brilli">Videos</h2>
             </header>
-            <figure>
+            <figure class="dotted">
                 <!-- usando el atributo muted funciona autoplay (tema navegadores) -->
                 <!-- <video controls autoplay muted loop poster="material/poster.jpg"> -->
                 <video controls>
                     <source src="videos/135687-764361609_small.mp4" type="video/mp4">
                 </video>
             </figure>
-            <figure>
+            <figure class="dotted">
                 <video controls>
                     <source src="videos/259860_small.mp4" type="video/mp4">
                 </video>
             </figure>
-            <figure>
+            <figure class="dotted">
                 <video controls>
                     <source src="videos/4733-179738669_small.mp4" type="video/mp4">
                 </video>
             </figure>
-            <figure>
+            <figure class="dotted">
                 <video controls>
                     <source src="videos/56888-482029921_small.mp4" type="video/mp4">
                 </video>
@@ -142,28 +142,38 @@
             <header>
                 <h2 class="brilli-brilli">Contacte</h2>
             </header>
-            <form action="#" method="post" name="formulari" id="formulari" autocomplete="off">
+            <form action="#" class="formulario dotted" method="post" name="formulari" id="formulari" autocomplete="off">
+
                 <fieldset>
-                    <label for="nom">Nom</label>
-                    <input type="text" name="nom" id="nom" value="" required>
+                    <ul>
+                        <li>
+                            <label for="nom">Nom</label>
+                            <input type="text" name="nom" id="nom" value="" required>
+                            <span id="nomError" class="noError"></span>
+                        </li>
 
-                    <label for="cognoms">Cognoms</label>
-                    <input type="text" name="cognoms" id="cognoms" value="" required>
-
-                    <label for="correu">Correu electrònic</label>
-                    <input type="email" name="correu" id="correu" value="" required>
+                        <li>
+                            <label for="cognoms">Cognoms</label>
+                            <input type="text" name="cognoms" id="cognoms" value="" required>
+                            <span id="cognomError" class="cognomError"></span>
+                        </li>
+    
+                        <li>
+                            <label for="correu">Correu electrònic</label>
+                            <input type="email" name="correu" id="correu" value="" required>
+                            <span id="correuError" class="noError"></span>
+                        </li>
+                    </ul>
                 </fieldset>
 
-                <fieldset>
+                <fieldset >
 
-                    <input type="checkbox" name="terminos" id="terminos" value="true">
-                    <label for="terminos">He llegit i accepto els termes i condicions de la política de protecció de dades</label>
-                    <!-- <div class="checkbox">
-                        <input id="check" type="checkbox" required >
-                        <a href="#">He leido y acepto la politica de privacidad</a>
-                        </div> -->
+                    <div class="input-group checkbox">
+						<input type="checkbox" name="terminos" id="terminos">
+						<label for="terminos">He llegit i accepto els termes i condicions de la política de protecció de dades</label>
+					</div>
 
-                    <input type="submit" value="Envia">
+                    <input type="button" value="Enviar" id="botonEnviar">
                 </fieldset>
             </form>
         </section>
