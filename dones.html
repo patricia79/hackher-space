@@ -15,8 +15,14 @@
 </head>
 <body>
     <header>
+        <h1>HackHerSpace</h1>
+
+        <figure id="banner">
+            <img src="img/1920_1280_3.jpg" alt="Imagen3" class="slider-img">
+        </figure>
+        
         <!-- Contenedor para el slider/carrusel -->
-        <!-- <div class="contenedor-slider">
+        <div class="contenedor-slider">
             <div class="slider" id="slider">
                 <div class="slider-section">
                     <img src="img/1920_1280_1.jpg" alt="Imagen1" class="slider-img">
@@ -34,14 +40,14 @@
                     <img src="img/1920_1280_5.jpg" alt="Imagen5" class="slider-img">
                 </div>
             </div>
-            <div class="slider-btn slider-btn-right" id="btn-right">&#62;</div>
-            <div class="slider-btn slider-btn-left" id="btn-left">&#60;</div>
-        </div> -->
+            <div class="slider-btn slider-btn-right oculto" id="btn-right">&#62;</div>
+            <div class="slider-btn slider-btn-left oculto" id="btn-left">&#60;</div>
+        </div>
 
-        <h1>HackHerSpace</h1>
+
     </header>
     <!-- Menú nav -->
-    <nav class="nav">
+    <nav>
         <div class="nav__container">
 
             <label class="nav__toggle">
@@ -59,11 +65,11 @@
                 </li>
 
                 <li class="nav__item">
-                    <a href="estadistiques.html" class="nav__link">Estadístiques</a>
+                    <a href="#" class="nav__link">Estadístiques</a>
                 </li>
 
                 <li class="nav__item">
-                    <a href="recursos.html" class="nav__link">Recursos</a>
+                    <a href="#" class="nav__link">Recursos</a>
                 </li>
             </ul>
         </div>
@@ -75,21 +81,60 @@
         <!-- Section 1: Dones Influents -->
         <section>
             <header>
-                <h2>Dones Influents</h2>
+                <h2>Dones Pioneres en la Tecnologia. Innovadores, Líders i Referents</h2>
             </header>
-            <p></p>
+            <p>L'evolució de la informàtica no es pot explicar sense les aportacions de dones brillants que han trencat barreres i han canviat el món.</p>
+
+            <p>En aquest espai, trobaràs les històries de pioneres com Ada Lovelace, que va imaginar el primer algorisme, o Grace Hopper, creadora del llenguatge de programació COBOL i impulsora de la programació moderna.</p>
+
+            <p>També donem visibilitat a figures sovint oblidades, com les dones que van programar el primer ordinador digital durant la Segona Guerra Mundial, les matemàtiques afroamericanes de la NASA que van fer possibles els primers viatges espacials, o Radia Perlman, la "mare d’Internet".</p>
+                
+            <p>Més enllà del passat, aquest apartat també recull noms clau de la tecnologia actual: líders en intel·ligència artificial, ciberseguretat i innovació digital que continuen transformant el futur.</p>
+                
+            <p>Explora les seves històries i descobreix com el seu talent i determinació han fet avançar el món de la informàtica.</p>
 
             <figure>
-                <img src="img/intro.jpg" alt="foto_intro">
+                <img src="img/dones.jpg" alt="foto_section">
             </figure>
         </section>
 
         <!-- Section 2: FlipCards -->
-        <section>
-            <header>
-                <h2></h2>
-            </header>
-
+        <section id="dones">
+            <div class="scene">
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="https://images.unsplash.com/photo-1517374148673-a38e9dd4fe6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p>Ada Lovelace, filla del poeta Lord Byron, va ser una matemàtica i escriptora britànica que va treballar amb Charles Babbage en la Màquina Analítica, considerada un precursor dels ordinadors moderns. Lovelace va entendre que la màquina no només podia fer càlculs, sinó que podia processar instruccions i crear seqüències repetitives, un concepte clau en la programació actual. El seu treball va ser redescobert un segle després i avui se la considera la primera programadora de la història.</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="https://images.unsplash.com/photo-1531518326825-96490ddf2a89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="https://images.unsplash.com/photo-1529911194209-8578109840df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
         </section>
         
         <!-- Section 3:  Dones influents en altres camps????-->
@@ -102,7 +147,8 @@
     </main>
 
     <!-- Peu del document -->
-    <footer>
+    <footer id="animacion-chica">
+        <section>
             <div>
                 <ul>&copy; Dissenyat per:
                     <li>Laia Sales</li>
@@ -112,11 +158,18 @@
     
             <div>
                 <p>Curs de Confecció i Publicació de Pàgines Web</p>
-                <p>CIFO Barcelona La Violeta - 2025</p>
+                <p><abbr title="Centre d'Innovació i Formació Ocupacional">CIFO</abbr> Barcelona La Violeta - 2025</p>
             </div>
+        </section>
+        <section>
+            
+        </section>
+        <!-- <section id="animacion-chica">
+            <p>Uneix-te a la nostra comunitat a Discord</p>
+        </section> -->
     </footer>
     
     <!-- Scripts -->
-    <!-- <script src="js/script.js"></script> -->
+    <script src="js/script.js"></script>
 </body>
 </html>

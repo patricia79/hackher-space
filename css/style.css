@@ -211,6 +211,23 @@ nav{
     0 0 35px var(--color_2);
 }
 /*************************************************************************************************************************************/
+/* INDEX *****************************************************************************************************************************/
+/* Estils per classes */
+.brilli-brilli{
+    text-shadow: 0 0 5px var(--color_w), 
+    0 0 10px var(--color_w), 
+    0 0 15px var(--color_2),
+    0 0 20px var(--color_2),
+    0 0 25px var(--color_2),
+    0 0 30px var(--color_2),
+    0 0 35px var(--color_2);
+}
+
+.dotted{
+    border: 2px dotted var(--color_3);
+    border-radius: 8px;
+}
+/*************************************************************************************************************************************/
 /* Estils pel main */
 main{
     grid-area: contingut-pral;
@@ -234,22 +251,6 @@ section{
     padding: 1rem 0;
 }
 
-.brilli-brilli{
-    text-shadow: 0 0 5px var(--color_w), 
-    0 0 10px var(--color_w), 
-    0 0 15px var(--color_2),
-    0 0 20px var(--color_2),
-    0 0 25px var(--color_2),
-    0 0 30px var(--color_2),
-    0 0 35px var(--color_2);
-}
-
-.dotted{
-    border: 2px dotted var(--color_3);
-    border-radius: 8px;
-}
-
-
 section header{
     width: 100%;
     font-family: var(--font_2);
@@ -263,7 +264,7 @@ section header{
             place-items: center;
         }
 }
-
+/*************************************************************************************************************************************/
 /* Intro */
 section:first-of-type{
     grid-area: introduccio;
@@ -287,8 +288,8 @@ section:first-of-type p{
     font-family: var(--font_7);
 } 
 
+/*************************************************************************************************************************************/
 /* Videos */
-
 section:nth-of-type(2){
     grid-area: videos;
     display: grid;
@@ -308,12 +309,14 @@ section:nth-of-type(2) figure video{
     filter: brightness(0.9) contrast(1.2); /* millora l'apariència*/
 }
 
-section:nth-of-type(2) figure video:hover{
+/* section:nth-of-type(2) figure video:hover{
     cursor: pointer;
     border: 2px dashed var(--color_3);
     box-shadow: 2px 4px 6px var(--color_2);
-}
+} */
 
+/*************************************************************************************************************************************/
+/* Formulari Contacte */
 section:last-of-type{
     grid-area: contacte;
 }
@@ -322,19 +325,12 @@ form{
     width: 100%;
     margin: 0 auto;
     padding: 1rem;
-    border-radius: 8px;
-    border: 2px dotted var(--color_3);
 }
 
 fieldset{
-    font-family: var(--font_7);
+    font-family: var(--font_4);
     border: none;
     padding: 1rem;
-}
-
-fieldset:nth-child(2){
-    border-radius: 8px;
-    border: 2px dotted var(--color_3);
 }
 
 legend{
@@ -342,50 +338,6 @@ legend{
     font: 1.5rem;
     font-weight: bold;
 }
-
-input[type="submit"]{
-    font-size: 1.2rem;
-    padding: 1rem;
-    border-radius: 5px;
-    background: #000;
-    color: #fff;
-    padding: 16px 32px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 24px;
-    position: relative;
-    cursor: pointer;
-}
-
-  input[type="submit"]::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient( 45deg, 
-      red, blue, deeppink, blue, 
-      red, blue, deeppink, blue);
-    background-size: 1000%;
-    filter: blur(10px);
-    animation: glowing 30s linear infinite;
-  }
-  
-  @keyframes glowing{
-    0%{
-      background-position: 0 0;
-    }
-    50%{
-      background-position: 500% 0;
-    }
-    100%{
-      background-position: 0 0;
-    }
-    
-  }
-  
 
 ul{
     list-style: none;
@@ -404,6 +356,43 @@ ul{
     color: #ff0000;
 }
 
+#botonEnviar{
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+#botonEnviar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 45deg, 
+      red, blue, deeppink, blue, 
+      red, blue, deeppink, blue);
+    background-size: 1000%;
+    filter: blur(10px);
+    animation: glowing 30s linear infinite;
+  }
+  
+  @keyframes glowing{
+    0% {background-position: 0 0;}
+    50% {background-position: 500% 0;}
+    100% {background-position: 0 0;}
+  }
+
+/*************************************************************************************************************************************/
 /* Estils pel footer */
 footer{
     border: var(--borderzB);
@@ -414,7 +403,6 @@ footer{
     display: grid;
     grid-template-columns: 100%;
 }
-
 
 #animacion-chica{
     background-image: url(../img/chica-navbar-lila.jpg);
@@ -428,54 +416,94 @@ footer{
     animation: chica-brillo 5s infinite;
 }
 
-  footer, section {
-    width: 100%;
-    font-family: var(--font_3);
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    background:#000;
-    overflow:hidden;
-  }
-  
-  .pov {
-    width:100%;
-    height:100vh;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .die {
-    width: 400px;
-    height: 55px;
-    padding-bottom: 9px;
-    perspective: 999px;
-  }
-  
-  .cube {
+/*************************************************************************************************************************************/
+/* DONES *****************************************************************************************************************************/
+/* Section 1: Dones Influents */
+#dones div label input{
     position: absolute;
-    width:100%;;
-    height:100%;
-    transform-style: preserve-3d;
-  }
-  
-  .face {
-    position: absolute;
+}
+
+.scene {
+    width: 1440px;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 40px 30px;
+}
+
+.card-wrap {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.card, .front, .back, .card-photo{
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  /*   letter-spacing:-1px; */
+}
+
+.card-face {
+    position: absolute;
     backface-visibility: hidden;
-  /*   overflow:hidden; */
-  }
+}
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s, box-shadow .4s;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    border-radius: 10px;
+}
+
+.card-photo {
+    object-fit: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+}
+
+.back {
+    background-color: white;
+    transform: rotateY( 180deg );
+    text-align: center;
+    color: darkgray;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.back p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flipcard {
+    opacity: 0;
+}
+
+input:checked + .card {
+    transform: rotateY( 180deg );
+}
+
+@media screen and (min-width: 960px) {
+    .scene {
+        display: flex;
+        justify-content: space-around;
+    }
+}
 
 
+/*************************************************************************************************************************************/
+/* MEDIA QUERIES *****************************************************************************************************************************/
 
-
-/* Media Queries */
 @media only screen and (min-width: 768px){
         .nav__container{
         --transform-menu-show: translate(0);

@@ -1,0 +1,121 @@
+1. Ada Lovelace (1815-1852)
+Ada Lovelace, filla del poeta Lord Byron, va ser una matemàtica i escriptora britànica que va treballar amb Charles Babbage en la Màquina Analítica, considerada un precursor dels ordinadors moderns. Lovelace va entendre que la màquina no només podia fer càlculs, sinó que podia processar instruccions i crear seqüències repetitives, un concepte clau en la programació actual. El seu treball va ser redescobert un segle després i avui se la considera la primera programadora de la història.
+
+2. Grace Hopper (1906-1992)
+Grace Hopper va ser una pionera en la programació d’ordinadors i va desenvolupar el llenguatge COBOL, un dels primers llenguatges d’alt nivell encara utilitzats en aplicacions financeres i empresarials. Com a oficial de la Marina dels Estats Units, va treballar en el desenvolupament del Mark I i va popularitzar el terme "debugging" quan va treure literalment un insecte d’un ordinador. La seva feina va establir les bases de la programació moderna.
+
+3. Katherine Johnson (1918-2020)
+Katherine Johnson, matemàtica i física afroamericana, va ser essencial en la cursa espacial de la NASA. Va calcular trajectòries per a missions històriques, inclosa la de John Glenn, el primer americà a orbitar la Terra, i l’Apollo 11, que va portar l’home a la Lluna. La seva precisió i coneixements van ser fonamentals per a l’èxit dels primers vols espacials tripulats.
+
+4. Margaret Hamilton (n. 1936)
+Va ser la líder del desenvolupament del programari de navegació de l’Apollo 11. Gràcies al seu treball, el mòdul lunar va poder aterrar amb seguretat, fins i tot quan els sistemes informàtics es van sobrecarregar durant la missió. Va ser una de les primeres persones a utilitzar el terme "software engineering", donant forma a una disciplina clau en la informàtica.
+
+5. Hedy Lamarr (1914-2000)
+Actriu de Hollywood i inventora, Hedy Lamarr va co-desenvolupar un sistema de comunicació per evitar interferències en torpedes durant la Segona Guerra Mundial. Aquest sistema, basat en salts de freqüència, va ser la base tecnològica per al desenvolupament del Wi-Fi, GPS i Bluetooth. Tot i que no va ser reconeguda en vida, avui se la considera una innovadora clau en les telecomunicacions.
+
+6. Radia Perlman (n. 1951)
+Radia Perlman és una enginyera informàtica nord-americana coneguda com la "mare d'Internet". Va desenvolupar l’Spanning Tree Protocol (STP), un element essencial per a les xarxes modernes, que permet evitar bucles en xarxes d’àrea local (LAN) i millorar-ne l’eficiència. Sense la seva aportació, Internet no hauria pogut créixer de la manera que ho ha fet.
+
+Perlman també ha contribuït a la seguretat i gestió de xarxes amb protocols innovadors i ha escrit llibres de referència en l’àmbit de la informàtica. Malgrat la seva influència en la tecnologia, sovint ha destacat que Internet va ser el resultat del treball de moltes persones, no només d’ella. Tot i això, la seva feina ha estat fonamental per garantir la fiabilitat i escalabilitat de les xarxes de comunicació modernes.
+
+7. Joan Clarke (1917-1996)
+Joan Clarke va ser una brillant matemàtica i criptògrafa britànica que va treballar a Bletchley Park durant la Segona Guerra Mundial. Va formar part de l’equip d'Alan Turing en la desxifració del codi Enigma dels nazis, contribuint a un dels majors èxits de la criptografia moderna.
+
+Tot i la seva gran capacitat intel·lectual, va enfrontar nombroses barreres de gènere i mai no va rebre el mateix reconeixement que els seus companys homes. A Bletchley Park, va aconseguir un dels càrrecs més alts possibles per a una dona en aquell moment, però mai no li van permetre arribar a posicions de lideratge. Després de la guerra, va treballar en estudis històrics de numismàtica medieval, allunyant-se de la criptografia.
+
+El seu paper en la guerra ha estat reconegut dècades després, sobretot gràcies a la pel·lícula The Imitation Game (2014), on el seu personatge és interpretat per Keira Knightley.
+
+8. Annie Easley (1933-2011)
+Annie Easley va ser una enginyera, programadora i matemàtica afroamericana que va treballar a la NASA i va ser una de les pioneres en el desenvolupament de programari per a missions espacials. Va començar la seva carrera a la National Advisory Committee for Aeronautics (NACA), que després es convertiria en la NASA, i va contribuir al desenvolupament d'algoritmes per a sistemes de propulsió i llançament.
+
+A més del seu treball tècnic, Easley va ser una defensora activa de la diversitat en el camp de la tecnologia. Va superar moltes barreres de discriminació racial i de gènere en una època en què les dones afroamericanes tenien molt poques oportunitats en l’enginyeria i la ciència.
+
+El seu treball va ser essencial en l’evolució dels primers sistemes de propulsió híbrids per a coets, que van obrir el camí a l'ús de tecnologies més netes en l’exploració espacial.
+
+9. Frances E. Allen (1932-2020)
+Frances E. Allen va ser una informàtica pionera en el camp de l’optimització de compiladors, que són programes que tradueixen llenguatges de programació d'alt nivell a codi executable per a ordinadors.
+
+Treballant a IBM, Allen va desenvolupar tècniques per millorar l'eficiència dels programes i va contribuir significativament al camp de la computació paral·lela, que permet als ordinadors executar múltiples tasques al mateix temps. El seu treball ha tingut un impacte enorme en el rendiment dels superordinadors i en àrees com la seguretat nacional i la intel·ligència artificial.
+
+Va ser la primera dona a rebre el Premi Turing, el guardó més prestigiós en informàtica, el 2006.
+
+10. Barbara Liskov (n. 1939)
+Barbara Liskov és una informàtica nord-americana que va fer contribucions fonamentals a la programació orientada a objectes, un paradigma essencial en llenguatges com Java, Python i C++.
+
+Va desenvolupar el Principi de Substitució de Liskov, una regla que garanteix que els objectes en una jerarquia de classes es poden substituir sense trencar el programa. Aquesta idea és clau en la programació moderna i ha ajudat a millorar la manera com es dissenyen els programes informàtics.
+
+A més, Liskov ha treballat en bases de dades distribuïdes i sistemes tolerants a errors, contribuint al desenvolupament de programari fiable i escalable. Va rebre el Premi Turing el 2008 pel seu treball pioner en la informàtica.
+
+11. Mary Allen Wilkes (n. 1937)
+Mary Allen Wilkes va ser una de les primeres persones a desenvolupar un sistema operatiu per a un ordinador personal. A la dècada de 1960, va treballar en el LINC (Laboratory Instrument Computer), un dels primers ordinadors dissenyats per ser utilitzats per una sola persona en un entorn de laboratori.
+
+Wilkes no només va escriure el programari del LINC, sinó que també va ser una de les primeres persones a tenir un ordinador a casa seva i a treballar-hi de forma remota. Això la converteix en una de les primeres pioneres del teletreball.
+
+A més de la seva carrera en informàtica, més tard va estudiar dret i va exercir com a advocada, demostrant la seva capacitat per excel·lir en múltiples disciplines.
+
+12. Evelyn Boyd Granville (1924-2023)
+Evelyn Boyd Granville va ser una de les primeres dones afroamericanes a obtenir un doctorat en matemàtiques als Estats Units. Va treballar per a la NASA en programes espacials, ajudant a calcular trajectòries per a missions del programa Mercury i Apollo.
+
+El seu treball va ser crucial per garantir la seguretat i precisió dels vols espacials tripulats, ajudant a portar astronautes a l’espai i de tornada a la Terra de manera segura. A més de la seva carrera tècnica, Granville va ser una defensora de l’educació en matemàtiques i ciències per a les dones i minories, promovent la diversitat en el camp STEM.
+
+13. Elizabeth Feinler (n. 1931)
+Elizabeth Feinler va dirigir el grup que va desenvolupar el primer directori d’Internet, un projecte precursor del sistema de noms de domini (DNS). Va treballar en la creació dels primers sistemes d’adreces d’Internet, facilitant la transició de l’ARPANET (precursor d’Internet) cap a un sistema global.
+
+El seu equip va gestionar els primers dominis .com, .org i .gov, establint l’estructura d’Internet que encara fem servir avui dia. Malgrat la seva influència en el desenvolupament de la xarxa global, sovint el seu nom no és tan reconegut com el d’altres figures masculines en la història d’Internet.
+
+
+
+14. Shafi Goldwasser (n. 1958)
+Shafi Goldwasser és una informàtica i matemàtica israeloamericana que ha fet contribucions fonamentals en el camp de la criptografia i la teoria de la complexitat computacional. És coneguda pels seus treballs en xifratge probabilístic, que han millorat la seguretat de les comunicacions digitals.
+
+Un dels seus èxits més destacats va ser el desenvolupament dels proves de coneixement nul (zero-knowledge proofs), una tècnica que permet verificar informació sense revelar-la. Aquest concepte és clau en aplicacions modernes com les criptomonedes i la seguretat en línia.
+
+Ha rebut nombrosos premis, inclòs el Premi Turing el 2012, considerat el "Nobel de la informàtica". La seva recerca ha tingut un gran impacte en la ciberseguretat, influenciant sistemes d’encriptació utilitzats en transaccions bancàries i identificació digital.
+
+15. Sophie Wilson (n. 1957)
+Sophie Wilson és una enginyera britànica responsable del disseny de l’arquitectura ARM (Advanced RISC Machine), que avui s’utilitza en la majoria de dispositius mòbils, tauletes i altres sistemes integrats.
+
+Als anys 80, Wilson va desenvolupar un processador eficient en termes d’energia i altament rendible, que més tard es convertiria en la base de l’arquitectura ARM. Actualment, més del 90% dels smartphones fan servir aquesta tecnologia.
+
+A més, va ser una de les desenvolupadores de l’ordinador personal BBC Micro, molt utilitzat a les escoles britàniques i clau en la popularització de la informàtica a les aules. La seva feina ha tingut un impacte directe en el desenvolupament de la tecnologia moderna i en la manera com interactuem amb dispositius electrònics.
+
+16. Carol Shaw (n. 1955)
+Carol Shaw és considerada la primera dona desenvolupadora de videojocs. Va començar la seva carrera a Atari als anys 70 i és especialment coneguda per haver creat River Raid (1982), un dels jocs més innovadors de la seva època.
+
+A River Raid, va introduir mecàniques de desplaçament vertical fluides i un sistema de generació de nivells avançat per a l'època. Va ser una innovació en la indústria del videojoc i va influenciar títols posteriors.
+
+Tot i que va treballar en diversos projectes a Atari i Activision, sovint no es parlava de les dones en la indústria dels videojocs en aquell temps. La seva contribució va ajudar a trencar barreres i obrir camí per a més dones en el desenvolupament de jocs.
+
+17. Lynn Conway (n. 1938)
+Lynn Conway és una enginyera i informàtica nord-americana que va revolucionar el disseny de circuits integrats, facilitant la producció massiva de microprocessadors.
+
+Als anys 70, va treballar a Xerox PARC i va desenvolupar mètodes de disseny de VLSI (Very Large Scale Integration) que permetien fabricar xips de manera més eficient. La seva recerca va ser clau per a la revolució tecnològica en el camp del maquinari informàtic i va establir les bases per a la indústria moderna dels semiconductors.
+
+També és una figura destacada en la defensa dels drets transgènere, ja que va fer la transició de gènere en un moment en què això suposava un gran risc professional. Malgrat les dificultats, la seva feina va tenir un impacte durador i ha estat reconeguda com una pionera en diversos camps.
+
+18. Rosalind Picard (n. 1962)
+Rosalind Picard és una investigadora en intel·ligència artificial i computació afectiva. Va fundar el camp de la computació afectiva, que busca dotar els ordinadors de la capacitat de reconèixer i respondre a emocions humanes.
+
+És professora al MIT i fundadora del grup de recerca Affective Computing. Ha desenvolupat sistemes que poden detectar l’estat emocional d’una persona a través de senyals fisiològiques, com l’expressió facial, la veu i la resposta galvànica de la pell.
+
+Les seves investigacions han tingut aplicacions en la salut mental, en la millora de la interacció entre humans i màquines, i en l’accessibilitat per a persones amb autisme o altres dificultats comunicatives. El seu treball és clau per al futur de la intel·ligència artificial i la tecnologia emocional.
+
+19. Fei-Fei Li (n. 1976)
+Fei-Fei Li és una investigadora en intel·ligència artificial (IA) especialitzada en visió per computador. És coneguda per haver creat ImageNet, una base de dades massiva d’imatges etiquetades que ha estat fonamental per al desenvolupament del deep learning.
+
+ImageNet va permetre entrenar xarxes neuronals profundes amb milions d’imatges, ajudant a revolucionar el reconeixement d’imatges i fent possible aplicacions com els cotxes autònoms, l’anàlisi mèdica per IA i la detecció facial.
+
+A més de la seva carrera científica, Fei-Fei Li és una gran defensora de l’ètica en la IA i ha impulsat iniciatives per fomentar la diversitat en la tecnologia, assegurant que la IA es desenvolupi de manera inclusiva i responsable.
+
+20. Parisa Tabriz (n. 1983)
+Parisa Tabriz és una enginyera en ciberseguretat i directora de seguretat de Google Chrome. Coneguda com la "princesa de la seguretat", lidera equips dedicats a protegir els usuaris contra atacs informàtics.
+
+Va començar a Google com a hacker ètic, provant sistemes per trobar vulnerabilitats. Amb el temps, va ascendir fins a dirigir la seguretat de Chrome, el navegador més utilitzat al món. Ha estat clau en la implementació de protocols més segurs i en la lluita contra malware, phishing i atacs de seguretat.
+
+Tabriz també promou la diversitat en la ciberseguretat i la tecnologia. És una defensora de la presència de dones en aquest camp i organitza iniciatives per formar futures expertes en seguretat informàtica. La seva influència s'estén més enllà de Google, ja que el seu treball ha ajudat a millorar la seguretat en tota la web.
+
+21. Mary Lee Woods (1924-2017)
+Mary Lee Woods va ser una matemàtica i enginyera britànica que va jugar un paper fonamental en els primers dies de la informàtica. Va treballar com a programadora a Ferranti, una de les primeres empreses que van fabricar ordinadors comercials. Com a membre de l'equip de desenvolupament del Ferranti Mark I, un dels primers ordinadors electrònics disponibles comercialment, Woods va contribuir a la creació de programari per a sistemes informàtics d’última generació en aquella època.
+
+A més de la seva pròpia carrera, és coneguda per ser la mare de Tim Berners-Lee, l’inventor de la World Wide Web. La seva influència i passió per la tecnologia van inspirar el seu fill a revolucionar la manera com la informació és compartida arreu del món. Tot i que sovint no es parla d’ella, la seva feina en la programació i el desenvolupament de sistemes informàtics va ser clau en una era en què les dones en la tecnologia no sempre rebien el reconeixement que mereixien.
+
