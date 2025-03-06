@@ -347,7 +347,45 @@ input[type="submit"]{
     font-size: 1.2rem;
     padding: 1rem;
     border-radius: 5px;
+    background: #000;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    cursor: pointer;
 }
+
+  input[type="submit"]::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 45deg, 
+      red, blue, deeppink, blue, 
+      red, blue, deeppink, blue);
+    background-size: 1000%;
+    filter: blur(10px);
+    animation: glowing 30s linear infinite;
+  }
+  
+  @keyframes glowing{
+    0%{
+      background-position: 0 0;
+    }
+    50%{
+      background-position: 500% 0;
+    }
+    100%{
+      background-position: 0 0;
+    }
+    
+  }
+  
 
 ul{
     list-style: none;
@@ -389,6 +427,50 @@ footer{
     height: 180px;
     animation: chica-brillo 5s infinite;
 }
+
+  footer, section {
+    width: 100%;
+    font-family: var(--font_3);
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    background:#000;
+    overflow:hidden;
+  }
+  
+  .pov {
+    width:100%;
+    height:100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .die {
+    width: 400px;
+    height: 55px;
+    padding-bottom: 9px;
+    perspective: 999px;
+  }
+  
+  .cube {
+    position: absolute;
+    width:100%;;
+    height:100%;
+    transform-style: preserve-3d;
+  }
+  
+  .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /*   letter-spacing:-1px; */
+    backface-visibility: hidden;
+  /*   overflow:hidden; */
+  }
 
 
 
