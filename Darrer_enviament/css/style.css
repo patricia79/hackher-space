@@ -1,0 +1,1218 @@
+@charset "utf-8";
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-gris-oscuro: rgb(11, 11, 11);
+  --color-bg-dark: #1f1f1f;
+  --color-bg-light: #cecece;
+  --color-bg-rosa-oscuro: #bf2489;
+  --color-bg-rosa-claro: #d66fb2;
+  --color-rosa-neon: rgb(255, 0, 238);
+  --color_back: rgb(16, 0, 9);
+  --color_back1: rgb(30, 0, 17);
+  --color_1: rgba(64, 2, 42, 1);
+  --color_2: rgba(191, 36, 137, 1);
+  --color_3: rgba(189, 44, 191, 1);
+  --color_4: rgba(57, 2, 64, 1);
+  --color_5: rgba(78, 41, 115, 1);
+  --color_6: rgba(183, 150, 217, 1); 
+  --color_7: rgba(238, 242, 109, 1);
+  --color_w: rgba(242, 242, 242, 1);
+  --color_9: rgba(38, 1, 22, 1);
+  --font_1: "Labrada", serif;
+  --font_2: "Flamenco", serif;
+  --font_3: "Vidaloka", serif;
+  --font_4: "Space Grotesk", serif;
+  --font_5: "Arvo", serif;
+  --font_6: "Figtree", sans-serif;
+  --font_7: "Assistant", sans-serif;
+  --borderzB: 2px solid red;
+  --fuente-titulos: "Roboto", serif;
+  font-size: 16px;
+}
+
+body{
+  background-color: black;
+  background-size: cover;
+  font-family: var(--fuente-titulos)
+}
+
+/* Navbar ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#nav-vertical{
+  display: none;
+}
+
+#nav-horizontal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px; 
+  background-color: var(--color-gris-oscuro);
+  box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 0 0 0 15px;
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+}
+
+/* Icono menú hamburguesa */
+#nav-horizontal #toggle-btn-horiz {
+  font-size: 1.5em;
+  cursor: pointer;
+  align-self: center;
+  justify-self: flex-start;
+}
+
+/* Logo centrado */
+#logo-horiz figure {
+  height: 50px;
+  width: auto;
+  align-self: center;
+}
+
+#logo-horiz figure img {
+  height: 100%;
+  width: 100%;
+}
+
+#nav-horizontal ul {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--color-gris-oscuro);
+  opacity: 0; 
+  list-style: none;
+}
+
+#nav-horizontal ul li {
+  width: 100%;
+  text-align: left;
+  padding: 0 15px;
+}
+
+#nav-horizontal li a {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 15px;
+}
+
+#nav-horizontal li a:hover {
+  background-color: rgb(255, 0, 238);
+  color: black;
+  box-shadow: 0 0 10px rgb(255, 0, 238);
+  border-radius: 5px;
+}
+
+#contacto{
+  color: gray;
+}
+
+/* Menú desplegable del navbar desplegado */
+
+#nav-horizontal.abierto {
+  height: 60vh;
+  width: 100%;
+  z-index: 1000;
+}
+
+#nav-horizontal.abierto #toggle-btn-horiz {
+  align-self: flex-start;
+  padding-top: 0.9rem;
+}
+
+
+#nav-horizontal.abierto ul {
+  height: 100%;
+  opacity: 1;
+}
+
+
+/* ÍNDEX ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* OLAS fondo ---------------------------*/
+
+#ola-grande{
+  position: fixed;
+  width: 60vw;
+  height: 100vh;
+  overflow: hidden;
+  right: 0;
+  z-index: -1000;
+}
+
+#ola-grande .ola{
+  filter: drop-shadow(0 0 1.5rem rgb(255, 0, 234));
+  position: absolute;
+  right: 0;
+  width: 45vw;
+  height: 100%;
+  background: url(../img/fondomaster.png);
+  opacity: 0.2;
+  background-size: 150% 200%;
+}
+
+#ola-grande .ola.ola2{
+  animation: wave 105s linear infinite;
+  z-index: -997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 0;
+}
+
+#ola-grande .ola.ola3{
+  animation: wave 210s linear infinite;
+  z-index: -998;
+  opacity: 0.6;
+  animation-delay: -2s;
+  bottom: 0;
+}
+
+#ola-grande .ola.ola4{
+  animation: wave 60s linear infinite;
+  z-index: -999;
+  opacity: 0.9;
+  animation-delay: -5s;
+  bottom: 0;
+}
+
+@keyframes wave{
+  0%{
+    background-position-y: 100%; 
+  }
+  45%{
+    background-position-y: 0%;
+  }
+  55%{
+    background-position-y: 0%;
+  }
+  100%{
+    background-position-y: 100%; 
+  }
+}
+/* Header ------------------------*/
+#header-index{
+  width: 100%;
+  display: grid;
+}
+
+#header-index h1{
+  padding-top: 4rem;
+  font-family: var(--font_1);
+  color: var(--color_7);
+  margin: 1rem 0;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  font-size: 3.7rem;
+  display: grid;
+  align-items: center;
+  text-shadow: 0 0 5px var(--color_w),     /* Efecte neó   */
+  0 0 10px var(--color_w), 
+  0 0 15px var(--color_2),
+  0 0 20px var(--color_2),
+  0 0 25px var(--color_2),
+  0 0 30px var(--color_2),
+  0 0 35px var(--color_2);
+}
+
+#header-index img{
+  width: 100%;
+  height: 100%;
+}
+
+/**********************************************************************************************************************************************/
+/* Carousel- style */
+.contenedor-slider{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+
+.slider{
+  display: flex;
+  height: 40vh;
+  width: 500%;
+  margin-left: -100%;
+}
+
+.slider-section{
+  width: 100%;
+}
+
+.slider-img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.oculto{
+  visibility: hidden;
+}
+
+.slider-btn-right{
+  right: 10px;
+}
+
+.slider-btn-left{
+  left: 10px;
+}
+
+.slider-btn:hover{
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Estils per classes */
+.brilli-brilli{
+  text-shadow: 0 0 5px var(--color_w), 
+  0 0 10px var(--color_w), 
+  0 0 15px var(--color_2),
+  0 0 20px var(--color_2),
+  0 0 25px var(--color_2),
+  0 0 30px var(--color_2),
+  0 0 35px var(--color_2);
+}
+
+.dotted{
+  border: 2px dotted var(--color_3);
+  border-radius: 8px;
+}
+/*************************************************************************************************************************************/
+/* Estils pel main */
+#main-index{
+  grid-area: contingut-pral;
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+      "introduccio"
+      "videos"
+      "contacte";
+}
+
+#main-index section{
+  width: 95%;
+  margin: 0 auto;
+  color: var(--color_w);
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 0.75rem;
+  padding: 1rem 0;
+}
+
+#main-index section header{
+  width: 100%;
+  font-family: var(--font_2);
+  display: grid;
+
+      & h2{
+          margin: 1rem 0;
+          font-weight: 800;
+          font-size: 1.75rem;
+          display: grid;
+          place-items: center;
+      }
+}
+/*************************************************************************************************************************************/
+/* Intro */
+#main-index section:first-of-type{
+  grid-area: introduccio;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#main-index section:first-of-type figure{
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+
+#main-index section:first-of-type figure img{
+  width: 100%;
+  height: 100%;
+}
+
+#main-index section:first-of-type p{
+  font-family: var(--font_7);
+} 
+
+/*************************************************************************************************************************************/
+/* Videos */
+#main-index section:nth-of-type(2){
+  grid-area: videos;
+  display: grid;
+  place-items: center;
+}
+
+#main-index section:nth-of-type(2) figure{
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+
+#main-index section:nth-of-type(2) figure iframe{
+  width: 100%;
+  object-fit: contain;
+  box-shadow: 2px 4px 6px #333;
+  filter: brightness(0.9) contrast(1.2); /* millora l'apariència*/
+}
+
+/* #main-index section:nth-of-type(2) figure iframe:hover{
+  cursor: pointer;
+  border: 2px dashed var(--color_3);
+  box-shadow: 2px 4px 6px var(--color_2);
+} */
+
+/*************************************************************************************************************************************/
+/* Formulari Contacte */
+#main-index section:last-of-type{
+  grid-area: contacte;
+}
+
+form{
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+fieldset{
+  font-family: var(--font_4);
+  border: none;
+  padding: 1rem;
+}
+
+legend{
+  padding: 0 1rem;
+  font: 1.5rem;
+  font-weight: bold;
+}
+
+#main-index ul{
+  list-style: none;
+}
+
+#nom, #cognoms, #correu{
+  display: block;
+  margin: 1rem 0;
+  width: 95%;
+  font: 1.2rem;
+  padding: 1.2rem;
+  border-radius: 5px;
+}
+
+.error{
+  color: #ff0000;
+}
+
+#botonEnviar{
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+  cursor: pointer;
+}
+
+#botonEnviar::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient( 45deg, 
+    red, blue, deeppink, blue, 
+    red, blue, deeppink, blue);
+  background-size: 1000%;
+  filter: blur(10px);
+  animation: glowing 30s linear infinite;
+}
+
+@keyframes glowing{
+  0% {background-position: 0 0;}
+  50% {background-position: 500% 0;}
+  100% {background-position: 0 0;}
+}
+
+
+/* ESTADÍSTIQUES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Body Estadísticas ----------------*/
+#estadisticas{
+  background: url('../img/background-estadisticas\ -\ copia.jpg') no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#estadisticas h1{
+  font-family: var(--fuente-titulos);
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+#estadisticas h2{
+  font-family: var(--fuente-titulos);
+  font-weight: 200;
+  font-size: 1.9rem;
+}
+
+#estadisticas main{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 85vw;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Título y texto de Presentación de la sección*/
+
+#presentacion-estadisticas{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+#presentacion-estadisticas h1{
+  font-family: "Roboto", serif;
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+#presentacion-estadisticas h2{
+  font-family: "Roboto", serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+#presentacion-estadisticas p{
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  line-height: 1.3rem;
+  margin-top: 1.5rem;
+}
+
+/* Estilos de las tarjetas con los graficos -------------------------- */
+
+/* A NIVELL GLOBAL */
+
+.grafico{
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem 1rem 3rem 1rem;
+  box-shadow: 0 0 4rem rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.653);
+  transition: all 0.9s ease;
+}
+
+.grafico:hover{
+  transform: scale(1.03);
+  background-color: rgba(58, 0, 69, 0.57);
+  box-shadow: 0 0 4rem var(--color-rosa-neon);
+  color: rgb(255, 255, 255);
+}
+
+.grafico p:last-of-type{
+  font-size: 0.8rem;
+  padding: 0.7rem 0 1.5rem 0;
+  color: rgb(169, 169, 169);
+}
+
+.grafico figcaption{
+  padding: 1rem 1.7rem;
+  line-height: 1.5;
+}
+
+.grafico figure{
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grafico img{
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+#grafico3 img{
+  width: 100%;
+  height: 100%;
+}
+
+#estadisticas h3{
+  padding-top: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: var(--fuente-titulos);
+  color: #bf2489;
+  justify-self: center;
+}
+
+#estadisticas h4{
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+
+span[lang="en"]{
+  font-style: italic;
+}
+
+
+
+/* Footer +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+footer{
+  background-color: rgba(11, 11, 11, 0.699);
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer #animacion-chica{
+  background-image: url(../img/chica-navbar-lila.jpg);
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-self: flex-end;
+  width: 180px;
+  height: 180px;
+  animation: chica-brillo 3.5s infinite;
+}
+
+@keyframes chica-brillo {
+  0% {
+    background-image: url('../img/chica-navbar-lila.jpg'); 
+    box-shadow: 0 0 6rem rgb(255, 0, 238);
+  }
+  50% {
+    background-image: url('../img/chica-navbar-lila-dark.jpg');
+    box-shadow: 0 0 2rem rgb(255, 0, 238);
+  }
+  100% {
+    background-image: url('../img/chica-navbar-lila.jpg');
+    box-shadow: 0 0 6rem rgb(255, 0, 238);
+  }
+}
+
+/* MEDIA QUERIES  --------------------------------------------*/
+
+@media only screen and (min-width: 768px){
+
+  /* OLAS fondo ---------------------------*/
+
+  #ola-grande{
+    width: 40vw;
+  }
+
+  #ola-grande .ola{
+    filter: drop-shadow(0 0 2.5rem rgb(255, 0, 234));
+    width: 35vw;
+  }
+
+  /* Navbar ----------------------------------*/
+
+  #nav-horizontal {
+    height: 70px;
+  }
+
+  /* ESTADÍSTIQUES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  #estadisticas main{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 90vw;
+    font-size: 1rem;
+  }
+
+  /* Título y texto de Presentación de la sección*/
+
+  #presentacion-estadisticas{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
+  #presentacion-estadisticas h2{
+    font-size: 1.8rem;
+  }
+
+  #presentacion-estadisticas p{
+    line-height: 1.4rem;
+  }
+
+  /* Estilos de las tarjetas con los graficos -------------------------- */
+
+  /* A NIVELL GLOBAL */
+
+  .grafico{
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin: 1rem 0.5rem 3rem 0.5rem;
+  }
+
+  .grafico p:last-of-type{
+    font-size: 1rem;
+  }
+
+  #estadisticas h3{
+    font-size: 1.7rem;
+  }
+
+  #estadisticas h4{
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+  }
+
+  /* Posicionamiento de las tarjetas con los gráficos ------------ */
+
+  /* Posicionamiento de la sección "A Nivel global" */
+
+  #global{
+    display: grid;
+    grid-template:
+    "titulo titulo"
+    "grafico1 grafico2"
+    / auto auto;
+    justify-content: space-evenly;
+  }
+
+  #global h3, #europa h3{
+    grid-area: titulo;
+    justify-self: center;
+    padding: 2rem 0 1.5rem 0;
+  }
+
+  #grafico1{
+    grid-area: grafico1;
+    min-width: 20vw;
+    min-height: 85vh;
+  }
+  
+  #grafico2{
+    grid-area: grafico2;
+    min-width: 20vw;
+    min-height: 85vh;
+  }
+
+  /* Posicionamiento de la sección "A nivel Europeo" */
+  #europa{
+    display: grid;
+    grid-template:
+    "titulo titulo titulo"
+    "grafico3 grafico3 grafico3"
+    "grafico4 grafico5 grafico6"
+    / auto auto auto;
+    justify-content: center;
+  }
+
+  #grafico3{
+    grid-area: grafico3;
+    padding: 1rem;
+    margin: 1rem 1rem 3rem 1rem;
+  }
+
+  #grafico3 img{
+    width: 95%;
+    height: 95%;
+  }
+  
+  #grafico4{
+    grid-area: grafico4;
+    min-height: 75vh;
+  }
+
+  #grafico5{
+    grid-area: grafico5;
+    min-height: 75vh;
+  }
+
+  #grafico6{
+    grid-area: grafico6;
+    min-height: 75vh;
+  }
+
+  #grafico4 h4, #grafico5 h4, #grafico6 h4{
+    font-size: 1rem;
+  }
+
+  #grafico4 figcaption, #grafico5 figcaption, #grafico6 figcaption{
+    padding: 1.5rem 0rem 0rem 0rem;
+  }
+
+  #grafico4 img, #grafico5 img, #grafico6 img{
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+
+@media only screen and (min-width: 1024px){
+
+  /* NAVBAR -----------------------------------*/
+
+  #nav-horizontal{
+    display: none;
+  }
+
+  #nav-vertical {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 100vh;
+    background-color: var(--color-gris-oscuro);
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 0 15px;
+    overflow: hidden;
+    list-style-type: none;
+    transition: width 0.5s ease-in-out;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  #nav-vertical .logo {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px 0 0 0;
+    cursor: pointer;
+  }
+  
+  #nav-vertical ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    list-style: none;
+  }
+  
+  #nav-vertical ul li {
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+  }
+  
+  #nav-vertical li a {
+    width: 100%;
+    padding: 15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+
+  #nav-vertical li a:hover{
+    background-color: rgb(255, 0, 238);
+    color: black;
+    box-shadow: 0 0 10px rgb(255, 0, 238);
+    border-radius: 5px;
+  }
+
+  #contacto{
+    color: gray;
+  }
+  
+  /* Menú desplegable desplegado */
+  #nav-vertical.abierto {
+    width: 300px;
+    z-index: 1000;
+  }
+  
+  #nav-vertical.abierto .logo{
+    background-image: url(../img/Logo-hackherspace1.png);
+    background-size: contain;
+    justify-self: center;
+    width: 100px;
+    height: 100px;
+  }
+
+  #nav-vertical.abierto .logo span{
+    opacity: 0;
+  }
+  
+  #nav-vertical.abierto ul {
+    opacity: 1;
+  }
+
+  /* OLAS fondo ---------------------------*/
+  
+  #ola-grande .ola{
+    filter: drop-shadow(0 0 4rem rgb(255, 0, 234));
+    right: 3rem;
+    width: 26vw;
+  }
+
+  /* ESTADÍSTIQUES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  
+  /* Título y texto de Presentación de la sección*/
+
+  #estadisticas main{
+    padding-left: 4.5rem;
+  }
+
+  #presentacion-estadisticas{
+    padding: 2.5rem 0 3rem 0rem;
+  }
+
+  #presentacion-estadisticas h1{
+    font-size: 3.5rem;
+  }
+
+  #presentacion-estadisticas h2{
+    font-size: 2rem;
+  }
+
+  /* Posicionamiento de las tarjetas con los gráficos ------------ */
+
+  #grafico1, #grafico2{
+    max-width: 35vw;
+    min-height: 83vh;
+  }
+
+  #grafico3{
+    max-width: 60vw;
+    justify-self: center;
+  }
+
+}
+
+@media only screen and (min-width: 1100px){
+
+  /* ESTADÍSTICAS */
+
+  #grafico1 img, #grafico2 img{
+    width: 70%;
+    height: 70%;
+  }
+
+  #grafico1, #grafico2{
+    max-width: 35vw;
+    min-height: 75vh;
+  }
+
+}
+
+@media only screen and (min-width: 1440px){
+
+  /* OLAS fondo ---------------------------*/
+
+  #ola-grande{
+    width: 30vw;
+  }
+
+  #ola-grande .ola{
+    filter: drop-shadow(0 0 5rem rgb(255, 0, 234));
+    right: 2.5rem;
+    width: 20vw;
+  }
+
+  /* ESTADÍSTIQUES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+  #estadisticas main{
+    display: grid;
+    grid-template:
+    "texto graficos"
+    / auto 1fr;
+    padding-left: 0;
+  }
+
+  /* Título y texto de Presentación de la sección*/
+
+  #presentacion-estadisticas{
+    width: 38vw;
+    height: 100vh;
+    padding: 1.5rem 3rem;
+    position: sticky;
+    top: 0;
+  }
+
+  #presentacion-estadisticas h1{
+    font-size: 3.8rem;
+  }
+  
+  #presentacion-estadisticas h2{
+    font-size: 2rem;
+  }
+
+  #presentacion-estadisticas p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  /* Estilos de las tarjetas con los graficos -------------------------- */
+
+  /* A NIVELL GLOBAL */
+
+  .grafico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem 1rem 3rem 1rem;
+  }
+
+  .grafico p:last-of-type{
+    font-size: 0.9rem;
+  }
+
+  .grafico figcaption{
+    padding: 1rem 3rem;
+  }
+
+  .grafico img{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+  }
+
+  #estadisticas h3{
+    font-size: 2rem;
+  }
+
+  #estadisticas h4{
+    font-size: 1rem;
+  }
+
+  /* Posicionamiento de las tarjetas con los gráficos ------------ */
+
+  /* Posicionamiento de la sección "A Nivel global" */
+
+  #global{
+    display: grid;
+    grid-template:
+    "titulo titulo"
+    "grafico1 grafico2"
+    / auto auto;
+    justify-content: space-evenly;
+  }
+
+  #global h3, #europa h3{
+    grid-area: titulo;
+    justify-self: center;
+    padding: 4rem 0 3rem 0;
+  }
+
+  #grafico1{
+    grid-area: grafico1;
+    min-width: 20vw;
+  }
+  
+  #grafico2{
+    grid-area: grafico2;
+    min-width: 20vw;
+  }
+
+  /* Posicionamiento de la sección "A nivel Europeo" */
+  #europa{
+    display: grid;
+    grid-template:
+    "titulo titulo titulo"
+    "grafico3 grafico3 grafico3"
+    "grafico4 grafico5 grafico6"
+    / auto auto auto;
+    justify-content: center;
+  }
+
+  #grafico3{
+    grid-area: grafico3;
+    min-width: 50vw;
+    height: fit-content;
+    padding: 1rem;
+    margin: 1rem 1rem 3rem 1rem;
+  }
+
+  #grafico3 img{
+    width: 95%;
+    height: 95%;
+  }
+  
+  #grafico4{
+    grid-area: grafico4;
+  }
+
+  #grafico5{
+    grid-area: grafico5;
+  }
+  
+  #grafico6{
+    grid-area: grafico6;
+  }
+
+}
+
+
+@media only screen and (min-width: 1900px){
+
+  /* ESTADÍSTICAS */
+
+  #presentacion-estadisticas{
+    width: 35vw;
+  }
+
+  #presentacion-estadisticas h1{
+    font-size: 3.9rem;
+  }
+
+  #presentacion-estadisticas h2{
+    font-size: 2.1rem;
+  }
+
+  #presentacion-estadisticas p{
+    font-size: 1.1rem;
+  }
+
+  .grafico figcaption{
+    padding: 2rem;
+  }
+
+  #grafico1, #grafico2{
+    width: 20vw;
+    height: 65vh;
+    min-height: fit-content;
+  }
+
+  #grafico3{
+    max-width: 45vw;
+    min-width: unset;
+    padding: 3rem 0 3rem 0;
+  }
+
+  #grafico3 figure{
+    width: 80%;
+    height: 80%;
+  }
+
+  #grafico4, #grafico5, #grafico6{
+    min-height: fit-content;
+    height: unset;
+  }
+
+  #grafico4 figcaption, #grafico5 figcaption, #grafico6 figcaption{
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 2200px){
+
+  /* Barra navegación */
+  #nav-vertical{
+    width: 125px;
+  }
+
+  #nav-vertical .logo{
+    padding-top: 35px;
+    font-size: 2.7rem;
+  }
+
+  #nav-vertical.abierto{
+    width: 500px;
+  }
+
+  #nav-vertical ul li{
+    padding: 2.5rem 0 0 1.5rem;
+  }
+
+  #nav-vertical li a{
+    font-size: 1.7rem;
+  }
+
+  #nav-vertical.abierto .logo{
+    width: 150px;
+    height: 150px;
+  }
+
+  /* ESTADÍSTICAS */
+
+  #presentacion-estadisticas h1{
+    font-size: 5.2rem;
+  }
+
+  #presentacion-estadisticas h2{
+    font-size: 2.9rem;
+  }
+
+  #presentacion-estadisticas p{
+    font-size: 1.7rem;
+    line-height: 1.4;
+  }
+
+  #estadisticas figcaption{
+    font-size: 1.7rem;
+  }
+
+  #estadisticas h4{
+    font-size: 1.8rem;
+  }
+
+  .grafico p:last-of-type{
+    font-size: 1.5rem;
+  }
+}

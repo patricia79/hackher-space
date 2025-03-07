@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack(h)er Space</title>
+    <link rel="stylesheet" href="css/style.css">
+
+        <!-- Google fonts -->
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="nav-horizontal">
+        <div class="logo-horiz" id="toggle-btn-horiz"><span>☰</span></div>
+        <ul id="menu-horiz">
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="dones.html">Dones influents a la tecnologia</a></li>
+            <li><a href="estadisticas.html">Estadístiques</a></li>
+            <li><a href="#">Recursos</a></li>
+            <li id="contacto"><a href="#">Contacte</a></li>
+          </ul>
+    </nav>
+
+    <nav id="nav-vertical">
+        <div class="logo" id="toggle-btn"><span>☰</span></div>
+        <ul id="menu-vert">
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="#">Dones influents a la tecnologia</a></li>
+          <li><a href="estadisticas.html">Estadístiques</a></li>
+          <li><a href="#">Recursos</a></li>
+          <li id="contacto"><a href="#">Contacte</a></li>
+        </ul>
+    </nav>
+
+    <div id="ola-grande">
+        <!-- <div class='ola ola1'></div> -->
+        <div class='ola ola2'></div>
+        <div class='ola ola3'></div>
+        <div class='ola ola4'></div>
+    </div>
+
+    <header id="header-index">
+        <h1>HackHerSpace</h1>
+
+        <figure id="banner">
+            <img src="img/1920_1280_3.jpg" alt="Imagen3" class="slider-img">
+        </figure>
+
+        <!-- Contenedor para el slider/carrusel -->
+        <div class="contenedor-slider">
+            <div class="slider" id="slider">
+                <div class="slider-section">
+                    <img src="img/1920_1280_1.jpg" alt="Imagen1" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="img/1920_1280_2.jpg" alt="Imagen2" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="img/1920_1280_3.jpg" alt="Imagen3" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="img/1920_1080_4.png" alt="Imagen4" class="slider-img">
+                </div>
+                <div class="slider-section">
+                    <img src="img/1920_1280_5.jpg" alt="Imagen5" class="slider-img">
+                </div>
+            </div>
+            <div class="slider-btn slider-btn-right oculto" id="btn-right">&#62;</div>
+            <div class="slider-btn slider-btn-left oculto" id="btn-left">&#60;</div>
+        </div>
+    </header>
+    <!-- Contingut Pral -->
+    <main id="main-dones">
+
+        <!-- Section 1: Dones Influents -->
+        <section>
+            <header>
+                <h2 class="brilli-brilli">Dones Pioneres en la Tecnologia. Innovadores, Líders i Referents</h2>
+            </header>
+            <p>L'evolució de la informàtica no es pot explicar sense les aportacions de dones brillants que han trencat barreres i han canviat el món.</p>
+
+            <p>En aquest espai, trobaràs les històries de pioneres com Ada Lovelace, que va imaginar el primer algorisme, o Grace Hopper, creadora del llenguatge de programació COBOL i impulsora de la programació moderna.</p>
+
+            <p>També donem visibilitat a figures sovint oblidades, com les dones que van programar el primer ordinador digital durant la Segona Guerra Mundial, les matemàtiques afroamericanes de la NASA que van fer possibles els primers viatges espacials, o Radia Perlman, la "mare d’Internet".</p>
+                
+            <p>Més enllà del passat, aquest apartat també recull noms clau de la tecnologia actual: líders en intel·ligència artificial, ciberseguretat i innovació digital que continuen transformant el futur.</p>
+                
+            <p>Explora les seves històries i descobreix com el seu talent i determinació han fet avançar el món de la informàtica.</p>
+
+            <figure>
+                <img src="img/dones.jpg" alt="foto_section">
+            </figure>
+        </section>
+
+        <!-- Section 2: FlipCards -->
+        <section id="dones">
+            <div class="scene">
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="img/ada-lovelace.jpeg" alt="ada" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p><span lang="en">Ada Lovelace</span>, filla del poeta <span lang="en">Lord Byron</span>, va ser una matemàtica i escriptora britànica que va treballar amb <span lang="en">Charles Babbage</span> en la Màquina Analítica, considerada un precursor dels ordinadors moderns.</p> 
+                            <p><span lang="en">Lovelace</span> va entendre que la màquina no només podia fer càlculs, sinó que podia processar instruccions i crear seqüències repetitives, un concepte clau en la programació actual.</p>
+                            <p>El seu treball va ser redescobert un segle després i avui se la considera la primera programadora de la història.</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="img/Grace-Hopper2.jpg" alt="grace" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p><span lang="en">Grace Hopper</span> va ser una pionera en la programació d’ordinadors i va desenvolupar el llenguatge COBOL, un dels primers llenguatges d’alt nivell encara utilitzats en aplicacions financeres i empresarials.</p> 
+                            <p>Com a oficial de la Marina dels Estats Units, va treballar en el desenvolupament del <cite lang="en">Mark I</cite> i va popularitzar el terme "<span lang="en">debugging</span>" quan va treure literalment un insecte d’un ordinador.</p> 
+                            <p>La seva feina va establir les bases de la programació moderna.</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="img/lynn.jpg" alt="Lynn" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p><span lang="en">Lynn Conway</span> (1938-2024) era una enginyera i informàtica nord-americana que va revolucionar el disseny de circuits integrats, facilitant la producció massiva de microprocessadors.</p>
+
+                            <p>Als anys 70, va treballar a Xerox PARC i va desenvolupar mètodes de disseny de VLSI (Very Large Scale Integration) que permetien fabricar xips de manera més eficient. La seva recerca va ser clau per a la revolució tecnològica en el camp del maquinari informàtic i va establir les bases per a la indústria moderna dels semiconductors.</p>
+                                
+                            <p>També és una figura destacada en la defensa dels drets transgènere, ja que va fer la transició de gènere en un moment en què això suposava un gran risc professional. Malgrat les dificultats, la seva feina va tenir un impacte durador i ha estat reconeguda com una pionera en diversos camps.</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="img/Rosalind-Picard-1.webp" alt="Picard" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p><span>Rosalind Picard</span> (1962-) és una investigadora en intel·ligència artificial i computació afectiva. Va fundar el camp de la computació afectiva, que busca dotar els ordinadors de la capacitat de reconèixer i respondre a emocions humanes.</p>
+
+                            <p>És professora al MIT i fundadora del grup de recerca <span lang="en">Affective Computing</span>. Ha desenvolupat sistemes que poden detectar l'estat emocional d’una persona a través de senyals fisiològiques, com l'expressió facial, la veu i la resposta galvànica de la pell.</p>
+                                
+                            <p>Les seves investigacions han tingut aplicacions en la salut mental, en la millora de la interacció entre humans i màquines, i en l'accessibilitat per a persones amb autisme o altres dificultats comunicatives. El seu treball és clau per al futur de la intel·ligència artificial i la tecnologia emocional.</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="img/elizabeth_jake_feinler.jpg" alt="feinler" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p>Elizabeth Feinler va dirigir el grup que va desenvolupar el primer directori d’Internet, un projecte precursor del sistema de noms de domini (DNS). Va treballar en la creació dels primers sistemes d’adreces d’Internet, facilitant la transició de l’ARPANET (precursor d’Internet) cap a un sistema global.</p>
+
+                            <p>El seu equip va gestionar els primers dominis .com, .org i .gov, establint l’estructura d’Internet que encara fem servir avui dia. Malgrat la seva influència en el desenvolupament de la xarxa global, sovint el seu nom no és tan reconegut com el d’altres figures masculines en la història d’Internet.</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="img/Katherine_Johnson_1983.jpg" alt="kathy" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p><span>Katherine Johnson</span>, matemàtica i física afroamericana, va ser essencial en la cursa espacial de la NASA. Va calcular trajectòries per a missions històriques, inclosa la de <span>John Glenn</span>, el primer americà a orbitar la Terra, i l'Apollo 11, que va portar l'home a la Lluna. La seva precisió i coneixements van ser fonamentals per a l'èxit dels primers vols espacials tripulats.</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="img/Joan-Clarke.jpg" alt="joan" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p><span lang="en">Joan Clarke</span> va ser una brillant matemàtica i criptògrafa britànica que va treballar a <span lang="en">Bletchley Park</span> durant la Segona Guerra Mundial. Va formar part de l’equip d'<span lang="en">Alan Turing</span> en la desxifració del codi <cite>Enigma dels nazis</cite>, contribuint a un dels majors èxits de la criptografia moderna.</p>
+
+                           <p> Tot i la seva gran capacitat intel·lectual, va enfrontar nombroses barreres de gènere i mai no va rebre el mateix reconeixement que els seus companys homes.</p> 
+                           
+                           <p>Després de la guerra, va treballar en estudis històrics de numismàtica medieval, allunyant-se de la criptografia.</p>
+                                
+                           <p>El seu paper en la guerra ha estat reconegut dècades després, sobretot gràcies a la pel·lícula <cite>The Imitation Game</cite> (2014), on el seu personatge és interpretat per <span lang="en">Keira Knightley</span>.</p>
+                        </div>
+                    </div>
+                </label>
+                <label class="card-wrap">
+                    <input type="checkbox" class="flipcard">
+                    <div class="card">
+                        <div class="front card-face">
+                            <img src="img/hedy.jpg" alt="hedy" class="card-photo">
+                        </div>
+                        <div class="back card-face">
+                            <p>Actriu de <span>Hollywood</span> i inventora, <span>Hedy Lamarr</span> va co-desenvolupar un sistema de comunicació per evitar interferències en torpedes durant la Segona Guerra Mundial. Aquest sistema, basat en salts de freqüència, va ser la base tecnològica per al desenvolupament del Wi-Fi, GPS i Bluetooth. Tot i que no va ser reconeguda en vida, avui se la considera una innovadora clau en les telecomunicacions.</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Peu del document -->
+    <footer id="animacion-chica">
+        <section>
+            <div>
+                <ul>&copy; Dissenyat per:
+                    <li>Laia Sales</li>
+                    <li>Marina Lladó</li>
+                    <li>Patricia González</li>
+            </div>
+    
+            <div>
+                <p>Curs de Confecció i Publicació de Pàgines Web</p>
+                <p><abbr title="Centre d'Innovació i Formació Ocupacional">CIFO</abbr> Barcelona La Violeta - 2025</p>
+            </div>
+        </section>
+        <section>
+            
+        </section>
+        <!-- <section id="animacion-chica">
+            <p>Uneix-te a la nostra comunitat a Discord</p>
+        </section> -->
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+{
+    "ca": {
+        "title":"Associacions de dones en el món de la tecnologia",
+        "info":{
+            "Women Who Code": {
+                "Missió": "Women Who Code és una organització global sense ànim de lucre que té com a objectiu apoderar les dones en el camp de la tecnologia. La seva missió principal és promoure la inclusió de les dones a la indústria tecnològica mitjançant formació contínua, oportunitats professionals i una comunitat activa i de suport.",
+                "Activitats i recursos": [
+                    "Xarxa de mentoratge per a orientació professional.",
+                    "Esdeveniments i hackatons per aprendre, crear i col·laborar en projectes tecnològics.",
+                    "Conferències i tallers sobre temes tècnics i de lideratge.",
+                    "Plataforma d'aprenentatge amb tutorials i recursos educatius."
+                ]
+            },
+            "AnitaB.org": {
+                "Missió": "AnitaB.org es dedica a avançar la carrera de les dones al camp de la tecnologia. La seva missió és tancar la bretxa de gènere en l'àmbit tecnològic, proporcionant oportunitats i plataformes per a les dones en tecnologia. L'organització va ser fundada en honor a Anita Borg, una pionera en la informàtica que va treballar per augmentar la representació de les dones a la tecnologia.",
+                "Activitats i recursos": [
+                    "Grace Hopper Celebration (GHC): Un dels esdeveniments més grans a nivell mundial, que reuneix milers de dones en tecnologia amb oportunitats de networking, conferències i tallers.",
+                    "Programes de beques i premis per a dones que realitzen investigacions innovadores.",
+                    "Mentoratge i programes de lideratge per a dones que busquen ascendir en les seves carreres."
+                ]
+            },
+            "National Center for Women & Information Technology (NCWIT)": {
+                "Missió": "NCWIT busca augmentar la participació de les dones i nenes en la informàtica i les ciències de la computació a nivell nacional, ajudant a transformar l'ecosistema tecnològic en general. Treballen amb empreses, institucions educatives i governs per crear oportunitats inclusives i sostenibles.",
+                "Activitats i recursos": [
+                    "Programes per a universitats i escoles per promoure la inclusió de dones en l'àmbit de la informàtica.",
+                    "Premis com el Aspirations in Computing Award per reconèixer i alentir el talent de les joves en computació.",
+                    "Investigació sobre la representació de les dones en tecnologia i advocacia per polítiques inclusives."
+                ]
+            },
+            "Girls Who Code": {
+                "Missió": "Girls Who Code té l'objectiu de reduir la bretxa de gènere en tecnologia mitjançant l'educació i l'apoderament de les nenes i dones joves. El seu enfocament està en inspirar i capacitar les joves perquè considerin la programació i les ciències de la computació com una carrera possible.",
+                "Activitats i recursos": [
+                    "Classes i programes extracurriculars per ensenyar a les nenes a programar.",
+                    "Campaments d'estiu i tallers on les joves aprenen a crear projectes tecnològics.",
+                    "Xarxa d'exalumnes que connecta amb oportunitats laborals i mentoratge."
+                ]
+            },
+            "TechWomen": {
+                "Missió": "TechWomen és un programa patrocinat pel govern dels EUA, que té l'objectiu d'apoderar les dones de països d'Àfrica, Orient Mitjà i Àsia Central mitjançant l'accés a la tecnologia i el reforçament de les seves habilitats al sector.",
+                "Activitats i recursos": [
+                    "Programes d'intercanvi en empreses tecnològiques de Silicon Valley, amb formació i mentoratge.",
+                    "Xarxa de mentoratge per rebre orientació per part de professionals de la indústria.",
+                    "Desenvolupament d'habilitats en lideratge i innovació tecnològica."
+                ]
+            },
+            "Women in Tech (WiT)": {
+                "Missió": "Women in Tech és una comunitat global que promou la igualtat de gènere a la indústria tecnològica mitjançant la creació de xarxes de suport, formació i recursos. Busca incrementar la representació femenina al sector i garantir que les dones tinguin les mateixes oportunitats que els homes en aquest àmbit.",
+                "Activitats i recursos": [
+                    "Conferències globals sobre inclusió en tecnologia i desenvolupament professional.",
+                    "Programes de mentoratge i coaching per a dones en tecnologia.",
+                    "Plataformes de connexió per compartir experiències i col·laborar."
+                ]
+            },
+            "Lesbians Who Tech": {
+                "Missió": "Lesbians Who Tech és una comunitat inclusiva que dóna suport a les dones lesbianes, no binàries i transgènere a la indústria tecnològica. La seva missió és crear un espai segur i divers on es puguin compartir idees, fomentar la visibilitat i enfortir el desenvolupament professional d’aquestes persones en tecnologia.",
+                "Activitats i recursos": [
+                    "Conferències i esdeveniments de networking per connectar a les persones en la indústria tecnològica.",
+                    "Programes de mentoratge i coaching per a dones LGBTQ+ en tecnologia.",
+                    "Oportunitats d'ocupació amb empreses compromeses amb la inclusió."
+                ]
+            },
+            "Ada Lovelace Fellowship": {
+                "Missió": "El Ada Lovelace Fellowship està dissenyat per promoure la inclusió de les dones i les persones no binàries en l'àmbit de la tecnologia i les ciències computacionals, proporcionant beques i oportunitats per impulsar les seves carreres en el camp de la informàtica.",
+                "Activitats i recursos": [
+                    "Beques acadèmiques per a dones i persones no binàries que desitgin estudiar computació o avançar en les seves investigacions tecnològiques.",
+                    "Oportunitats d'investigació en àrees com intel·ligència artificial i ciberseguretat.",
+                    "Xarxa de suport per compartir idees i desenvolupar projectes en el camp de la informàtica."
+                ]
+            }
+        }
+    },
+    "en": {
+        "title":"Women’s Associations in the World of Technology",
+        "info": {
+            "Women Who Code": {
+                "Mission": "Women Who Code is a global non-profit organization with the goal of empowering women in the field of technology. Its main mission is to promote the inclusion of women in the tech industry through continuous training, professional opportunities, and an active and supportive community.",
+                "Activities and Resources": [
+                    "Mentorship network for professional guidance.",
+                    "Events and hackathons to learn, create, and collaborate on tech projects.",
+                    "Conferences and workshops on technical and leadership topics.",
+                    "Learning platform with tutorials and educational resources."
+                ]
+            },
+            "AnitaB.org": {
+                "Mission": "AnitaB.org is dedicated to advancing women’s careers in technology. Its mission is to close the gender gap in the tech field by providing opportunities and platforms for women in technology. The organization was founded in honor of Anita Borg, a pioneer in computer science who worked to increase the representation of women in technology.",
+                "Activities and Resources": [
+                    "Grace Hopper Celebration (GHC): One of the largest global events that brings together thousands of women in technology with networking opportunities, conferences, and workshops.",
+                    "Scholarship programs and awards for women doing innovative research.",
+                    "Mentoring and leadership programs for women looking to advance in their careers."
+                ]
+            },
+            "National Center for Women & Information Technology (NCWIT)": {
+                "Mission": "NCWIT seeks to increase the participation of women and girls in computing and computer science nationwide, helping to transform the tech ecosystem in general. They work with companies, educational institutions, and governments to create inclusive and sustainable opportunities.",
+                "Activities and Resources": [
+                    "Programs for universities and schools to promote the inclusion of women in the computing field.",
+                    "Awards like the Aspirations in Computing Award to recognize and encourage young talent in computing.",
+                    "Research on the representation of women in technology and advocacy for inclusive policies."
+                ]
+            },
+            "Girls Who Code": {
+                "Mission": "Girls Who Code aims to reduce the gender gap in technology through education and empowering young girls and women. Its focus is on inspiring and empowering young women to consider programming and computer science as a possible career.",
+                "Activities and Resources": [
+                    "Classes and extracurricular programs to teach girls how to code.",
+                    "Summer camps and workshops where young girls learn to create tech projects.",
+                    "Alumni network that connects with job opportunities and mentoring."
+                ]
+            },
+            "TechWomen": {
+                "Mission": "TechWomen is a program sponsored by the U.S. government with the goal of empowering women from Africa, the Middle East, and Central Asia through access to technology and strengthening their skills in the sector.",
+                "Activities and Resources": [
+                    "Exchange programs at tech companies in Silicon Valley, with training and mentorship.",
+                    "Mentorship network to receive guidance from industry professionals.",
+                    "Leadership and technological innovation skill development."
+                ]
+            },
+            "Women in Tech (WiT)": {
+                "Mission": "Women in Tech is a global community that promotes gender equality in the tech industry by creating support networks, training, and resources. It seeks to increase female representation in the sector and ensure that women have the same opportunities as men in this field.",
+                "Activities and Resources": [
+                    "Global conferences on inclusion in technology and professional development.",
+                    "Mentorship and coaching programs for women in technology.",
+                    "Connection platforms to share experiences and collaborate."
+                ]
+            },
+            "Lesbians Who Tech": {
+                "Mission": "Lesbians Who Tech is an inclusive community that supports lesbian, non-binary, and transgender women in the tech industry. Its mission is to create a safe and diverse space where ideas can be shared, visibility can be fostered, and professional development can be strengthened for these individuals in technology.",
+                "Activities and Resources": [
+                    "Conferences and networking events to connect people in the tech industry.",
+                    "Mentorship and coaching programs for LGBTQ+ women in technology.",
+                    "Job opportunities with companies committed to inclusion."
+                ]
+            },
+            "Ada Lovelace Fellowship": {
+                "Mission": "The Ada Lovelace Fellowship is designed to promote the inclusion of women and non-binary people in the field of technology and computer science by providing scholarships and opportunities to advance their careers in computing.",
+                "Activities and Resources": [
+                    "Academic scholarships for women and non-binary people who wish to study computing or advance their technological research.",
+                    "Research opportunities in areas like artificial intelligence and cybersecurity.",
+                    "Support network to share ideas and develop projects in the computing field."
+                ]
+            }
+        }
+    }
+}
+

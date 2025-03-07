@@ -1,0 +1,116 @@
+Organizaciones creadas para combatir la infrarrepresentación de la mujer en la tecnología en Europa.
+La escasa presencia de mujeres en el desarrollo de la tecnología puede convertirse en una desventaja a largo plazo. Por esta razón, existen organizaciones que llevan a cabo campañas para atraer y retener a los futuros talentos femeninos.
+
+
+Girls who code y Code.org sensibilizan a las estudiantes de secundaria y preparatoria  sobre la programación.
+
+Women Techmakers es un programa de Google que tiene como objetivo fomentar la inclusión de la mujer en la tecnología ofreciendo, entre otras cosas, programas de mentoría.
+
+Women Who Tech apoya a las mujeres emprendedoras en los campos de la tecnología y las startups mediante networking y financiamiento.
+
+El Centro Europeo para la Mujer y la Tecnología reúne empresas, universidades, asociaciones y gobiernos de Europa para aportar su experiencia en el desarrollo de la mujer en la tecnología.
+
+Women in Tech® es la primera organización del mundo que fomenta la inclusión, la diversidad y la equidad en el campo de las tecnologías de la información y la comunicación (STEAM).
+
+La mentoría, la contratación orientada, la formación técnica y de liderazgo y la concienciación corporativa sobre la inclusión y la diversidad son iniciativas que promueven la igualdad de trato para las mujeres. El objetivo de estas acciones es cambiar la imagen de la industria tecnológica y contribuir así a una cultura empresarial más equitativa e inclusiva.
+
+
+
+
+Existen varias asociaciones internacionales dedicadas a promover la participación de las mujeres en el mundo de la informática y la tecnología. Aquí te dejo algunas destacadas:
+
+Women Who Code (WWC)
+Esta organización global apoya a mujeres en tecnología proporcionando recursos de desarrollo profesional, eventos de networking y oportunidades de mentoría.
+
+AnitaB.org
+Fundada en honor a Anita Borg, una pionera en la informática, esta organización tiene como misión apoyar y conectar a las mujeres en tecnología. Su evento más conocido es el Grace Hopper Celebration.
+
+National Center for Women & Information Technology (NCWIT)
+NCWIT trabaja en colaboración con instituciones académicas, organizaciones de la industria y gobiernos para aumentar la participación de mujeres en la informática y las ciencias de la computación.
+
+Girls Who Code
+Con el objetivo de cerrar la brecha de género en tecnología, Girls Who Code busca inspirar, educar y empoderar a las niñas y mujeres jóvenes para que sigan carreras en ciencia de la computación.
+
+TechWomen
+Un programa patrocinado por el gobierno de los EE. UU., que busca empoderar a las mujeres de países en desarrollo proporcionándoles acceso a oportunidades en la industria tecnológica, mediante el intercambio de conocimientos y experiencias.
+
+WOMEN IN TECH (WiT)
+Esta organización global promueve la igualdad de género en el sector tecnológico, organizando eventos, conferencias y programas de mentoría para mujeres en tecnología.
+
+Lesbians Who Tech
+Una comunidad inclusiva que apoya a mujeres lesbianas y no binarias en tecnología, brindando oportunidades de trabajo, visibilidad y conexiones profesionales.
+
+Ada Lovelace Fellowship
+Una beca dirigida a mujeres y personas no binarias en el ámbito de la informática y la tecnología, con el objetivo de promover la inclusión y diversidad en el sector.
+
+Estas asociaciones no solo brindan recursos, sino que también crean redes de apoyo, fomentando la participación activa de las mujeres en campos tradicionalmente dominados por hombres, como la informática y la ingeniería.
+
+
+
+
+### 1. **Women Who Code (WWC)**  
+**Misión:** Women Who Code es una organización global sin fines de lucro que tiene como objetivo empoderar a las mujeres en el campo de la tecnología. Su misión principal es promover la inclusión de las mujeres en la industria tecnológica a través de formación continua, oportunidades profesionales y una comunidad activa y de apoyo.
+
+**Actividades y recursos:**
+- **Red de mentoría:** Proporcionan programas de mentoría donde las participantes pueden conectar con mentores para orientación profesional.
+- **Eventos y hackatones:** Organizan eventos globales y hackatones donde las mujeres pueden aprender, crear y colaborar en proyectos tecnológicos.
+- **Conferencias y talleres:** Ofrecen talleres técnicos, así como eventos de networking donde las mujeres pueden compartir experiencias y mejorar sus habilidades.
+- **Recursos educativos:** Tienen una plataforma de aprendizaje en línea con tutoriales, blogs y otros materiales educativos.
+
+### 2. **AnitaB.org**  
+**Misión:** AnitaB.org se dedica a avanzar la carrera de las mujeres en el campo de la tecnología. Su misión es cerrar la brecha de género en el ámbito tecnológico, proporcionando oportunidades y plataformas para las mujeres en tecnología. La organización fue fundada en honor a **Anita Borg**, una pionera en la informática que trabajó para aumentar la representación de las mujeres en la tecnología.
+
+**Actividades y recursos:**
+- **Grace Hopper Celebration (GHC):** Este evento es uno de los más grandes a nivel mundial, reuniendo a miles de mujeres en tecnología. Ofrece oportunidades de networking, conferencias y talleres sobre temas clave en tecnología y liderazgo.
+- **Programas de becas y premios:** AnitaB.org ofrece becas y premios para mujeres que están realizando investigaciones, trabajos o proyectos innovadores en la tecnología.
+- **Mentoría y programas de liderazgo:** La organización proporciona recursos para mujeres que buscan ascender en sus carreras, incluyendo mentoría y desarrollo de habilidades de liderazgo.
+
+### 3. **National Center for Women & Information Technology (NCWIT)**  
+**Misión:** NCWIT busca aumentar la participación de las mujeres y niñas en la informática y las ciencias de la computación a nivel nacional, ayudando a transformar el ecosistema tecnológico en general. Trabajan con empresas, instituciones educativas y gobiernos para crear oportunidades inclusivas y sostenibles.
+
+**Actividades y recursos:**
+- **Programas para universidades y escuelas:** Ofrecen recursos y formación a escuelas y universidades para promover la inclusión de mujeres en el ámbito de la informática.
+- **Premios y reconocimientos:** Tienen premios como el **Aspirations in Computing Award** para reconocer y alentar el talento de las jóvenes en computación.
+- **Investigación y políticas públicas:** Publican investigaciones sobre la representación de las mujeres en tecnología y abogan por políticas que fomenten la inclusión.
+
+### 4. **Girls Who Code**  
+**Misión:** Girls Who Code tiene el objetivo de reducir la brecha de género en tecnología mediante la educación y el empoderamiento de las niñas y mujeres jóvenes. Su enfoque está en inspirar y capacitar a las jóvenes para que consideren la programación y las ciencias de la computación como una carrera posible.
+
+**Actividades y recursos:**
+- **Clases y programas extracurriculares:** Ofrecen programas de formación en programación a nivel escolar y extracurriculares, con el fin de enseñar a las niñas a crear programas, sitios web y aplicaciones.
+- **Campamentos de verano y talleres:** Organizan campamentos y talleres de verano donde las jóvenes pueden aprender habilidades tecnológicas mientras desarrollan proyectos con impacto.
+- **Alumni y comunidad:** Una vez que las participantes terminan sus programas, pueden formar parte de una red global de exalumnas que las conecta con oportunidades laborales, mentoría y apoyo.
+
+### 5. **TechWomen**  
+**Misión:** TechWomen es un programa patrocinado por el gobierno de los EE. UU., cuyo objetivo es empoderar a las mujeres de países de África, Oriente Medio y Asia Central a través del acceso a la tecnología y el fortalecimiento de sus habilidades en el sector.
+
+**Actividades y recursos:**
+- **Programas de intercambio:** TechWomen selecciona mujeres para participar en intercambios internacionales, donde pasan tiempo en empresas tecnológicas en Silicon Valley, recibiendo formación, mentoría y exposición a oportunidades.
+- **Red de mentoría:** Durante el intercambio, las participantes reciben mentoría y orientación por parte de profesionales de la industria tecnológica.
+- **Desarrollo de habilidades:** Además del componente de mentoría, el programa incluye talleres de liderazgo, innovación y emprendimiento tecnológico.
+
+### 6. **Women in Tech (WiT)**  
+**Misión:** Women in Tech es una comunidad global que promueve la igualdad de género en la industria tecnológica a través de la creación de redes de apoyo, formación y recursos. Busca incrementar la representación femenina en el sector y garantizar que las mujeres tengan las mismas oportunidades que los hombres en este ámbito.
+
+**Actividades y recursos:**
+- **Conferencias y summits:** WiT organiza conferencias globales en las que se abordan temas sobre la inclusión en la tecnología, el liderazgo femenino y el desarrollo profesional.
+- **Mentoría y programas de coaching:** La organización ofrece programas para ayudar a las mujeres a desarrollar habilidades de liderazgo y superar obstáculos dentro de la industria tecnológica.
+- **Redes profesionales:** Facilitan plataformas donde las mujeres pueden conectarse y compartir experiencias, colaborando en proyectos y aprendiendo unas de otras.
+
+### 7. **Lesbians Who Tech**  
+**Misión:** Lesbians Who Tech es una comunidad inclusiva que apoya a las mujeres lesbianas, no binarias y transgénero en la industria tecnológica. Su misión es crear un espacio seguro y diverso donde se puedan compartir ideas, fomentar la visibilidad y fortalecer el desarrollo profesional de estas personas en tecnología.
+
+**Actividades y recursos:**
+- **Conferencias y eventos de networking:** Organizan conferencias y eventos donde las personas pueden conectarse con otras profesionales de la tecnología, discutir sobre el futuro de la industria y explorar oportunidades de carrera.
+- **Programas de mentoría:** Lesbians Who Tech promueve programas de mentoría y coaching para apoyar a las mujeres LGBTQ+ en su desarrollo profesional dentro de la tecnología.
+- **Oportunidades de empleo:** Facilitan la conexión con empresas que buscan talentos diversos y que están comprometidas con la inclusión.
+
+### 8. **Ada Lovelace Fellowship**  
+**Misión:** El Ada Lovelace Fellowship está diseñado para promover la inclusión de las mujeres y las personas no binarias en el ámbito de la tecnología y las ciencias computacionales, proporcionando becas y oportunidades para impulsar sus carreras en el campo de la informática.
+
+**Actividades y recursos:**
+- **Becas académicas:** Ofrecen becas para mujeres y personas no binarias que deseen estudiar computación o avanzar en sus investigaciones tecnológicas.
+- **Oportunidades de investigación:** A través de estas becas, los beneficiarios pueden realizar investigaciones avanzadas en áreas como la inteligencia artificial, la ciberseguridad, y la ciencia de datos.
+- **Red de apoyo:** Crean una comunidad de mujeres y personas no binarias en la tecnología, proporcionando espacios para el intercambio de ideas y el desarrollo profesional.
+
+Estas asociaciones desempeñan un papel crucial en la transformación de la industria tecnológica, garantizando que las mujeres y otros grupos tradicionalmente subrepresentados tengan las mismas oportunidades y recursos para prosperar en el sector.
